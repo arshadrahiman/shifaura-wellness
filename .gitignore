@@ -1,0 +1,7 @@
+# SQLite database runtime files
+db/shifaura.db
+db/shifaura.db-journal
+
+# OS generated files
+.DS_Store
+Thumbs.db

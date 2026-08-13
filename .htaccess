@@ -1,0 +1,22 @@
+# ============================================================
+# SHIFAURA Wellness - Apache Web Server Configuration (.htaccess)
+# Designed for Endor LAMP / Apache2 / PHP Environments
+# ============================================================
+
+# Directory Index Order
+DirectoryIndex index.php index.html
+
+# Enable FollowSymLinks & Disable Directory Listings
+Options -Indexes +FollowSymLinks
+
+# UTF-8 Charset Header
+AddDefaultCharset UTF-8
+
+# Secure Protection for Database Files and Configs
+<FilesMatch "^\.ht|shifaura\.db|config\.php|schema\.sql$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Custom Error Handling Pages (Optional)
+# ErrorDocument 404 /index.php
