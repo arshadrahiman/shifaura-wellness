@@ -95,8 +95,8 @@ include_once __DIR__ . '/includes/header.php';
                 </div>
                 <div class="hero-trust-line">
                     <strong>7+ Years Experience</strong> &nbsp;|&nbsp; 
-                    <strong>M.Sc. Food Science & Nutrition</strong> &nbsp;|&nbsp; 
-                    <strong>Certified Diabetes Educator</strong>
+                    <strong>M.Sc. Food Science &amp; Nutrition</strong> &nbsp;|&nbsp; 
+                    <strong>Online &amp; Offline Consultations</strong>
                 </div>
             </div>
             <div class="hero-image-container">
@@ -107,6 +107,13 @@ include_once __DIR__ . '/includes/header.php';
                     <h3 style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 1.85rem; color: var(--sandal-light); margin-bottom: 1.5rem;">Evidence-Based Holistic Care</h3>
                     
                     <div style="display: flex; flex-direction: column; gap: 1rem; text-align: left;">
+                        <div style="background: rgba(248, 235, 222, 0.08); padding: 1rem 1.25rem; border-radius: var(--radius-md); border-left: 3px solid var(--gold); display: flex; align-items: center; gap: 0.75rem;">
+                            <span style="font-size: 1.5rem;">🏥</span>
+                            <div>
+                                <strong style="display: block; color: var(--sandal-light); font-size: 0.95rem;">Online &amp; Offline Consultations</strong>
+                                <span style="font-size: 0.8rem; color: #C2CBB2;">Flexible virtual video calls or in-person clinic visits</span>
+                            </div>
+                        </div>
                         <div style="background: rgba(248, 235, 222, 0.08); padding: 1rem 1.25rem; border-radius: var(--radius-md); border-left: 3px solid var(--gold); display: flex; align-items: center; gap: 0.75rem;">
                             <span style="font-size: 1.5rem;">🥗</span>
                             <div>
@@ -536,11 +543,29 @@ include_once __DIR__ . '/includes/header.php';
                         </div>
                         <div class="consultation-contact-item">
                             <i data-feather="map-pin"></i>
-                            <span>Online consultation worldwide</span>
+                            <span>Online (Worldwide) &amp; Offline (In-Clinic)</span>
                         </div>
                     </div>
 
-                    <div>
+                    <!-- Consultation Modes Info Cards -->
+                    <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                        <div style="background: rgba(255,255,255,0.08); padding: 0.85rem 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.15); display: flex; align-items: center; gap: 0.75rem;">
+                            <span style="font-size: 1.25rem;">💻</span>
+                            <div>
+                                <strong style="display: block; font-size: 0.9rem; color: var(--sandal-light);">Online Virtual Consultation</strong>
+                                <span style="font-size: 0.78rem; opacity: 0.85;">Worldwide video call &amp; daily WhatsApp support</span>
+                            </div>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.08); padding: 0.85rem 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.15); display: flex; align-items: center; gap: 0.75rem;">
+                            <span style="font-size: 1.25rem;">🏥</span>
+                            <div>
+                                <strong style="display: block; font-size: 0.9rem; color: var(--sandal-light);">Offline In-Clinic Consultation</strong>
+                                <span style="font-size: 0.78rem; opacity: 0.85;">1-on-1 personal consultation at clinic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
                         <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.75rem;">Follow SHIFAURA</div>
                         <div class="consultation-socials">
                             <a href="#" class="consultation-social-icon" aria-label="Instagram"><i data-feather="instagram" style="width: 16px; height: 16px;"></i></a>
@@ -593,26 +618,37 @@ include_once __DIR__ . '/includes/header.php';
                                     <input type="tel" id="phone" name="phone" required placeholder="e.g. +91 9876543210">
                                 </div>
                                 <div class="form-group">
-                                    <label for="health_goal">Primary Health Goal *</label>
-                                    <select id="health_goal" name="health_goal" required>
-                                        <option value="" disabled selected>Select a goal</option>
-                                        <option value="Weight Loss">Weight Loss & Fat Reduction</option>
-                                        <option value="Weight Gain">Healthy Weight Gain</option>
-                                        <option value="Diabetes Management">Diabetes Management</option>
-                                        <option value="PMOS / Hormones">PMOS & Hormonal Health</option>
-                                        <option value="Thyroid Management">Thyroid Health</option>
-                                        <option value="Fertility Nutrition">Fertility Nutrition</option>
-                                        <option value="General Wellness">General Wellness & 8 Pillars</option>
+                                    <label for="consultation_mode">Consultation Mode *</label>
+                                    <select id="consultation_mode" name="consultation_mode" required>
+                                        <option value="" disabled selected>Select Online or Offline</option>
+                                        <option value="Online Consultation (Video/WhatsApp)">💻 Online Consultation (Video / WhatsApp)</option>
+                                        <option value="Offline Consultation (In-Clinic)">🏥 Offline Consultation (In-Clinic Visit)</option>
                                     </select>
                                 </div>
                             </div>
 
                             <div class="form-grid">
                                 <div class="form-group">
+                                    <label for="health_goal">Primary Health Goal *</label>
+                                    <select id="health_goal" name="health_goal" required>
+                                        <option value="" disabled selected>Select a goal</option>
+                                        <option value="Weight Loss">Weight Loss &amp; Fat Reduction</option>
+                                        <option value="Weight Gain">Healthy Weight Gain</option>
+                                        <option value="Diabetes Management">Diabetes Management</option>
+                                        <option value="PMOS / Hormones">PMOS &amp; Hormonal Health</option>
+                                        <option value="Thyroid Management">Thyroid Health</option>
+                                        <option value="Fertility Nutrition">Fertility Nutrition</option>
+                                        <option value="General Wellness">General Wellness &amp; 8 Pillars</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
                                     <label for="preferred_date">Preferred Date *</label>
                                     <input type="date" id="preferred_date" name="preferred_date" required min="<?php echo date('Y-m-d'); ?>">
                                 </div>
-                                <div class="form-group">
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group full-width">
                                     <label for="preferred_time">Preferred Time slot *</label>
                                     <select id="preferred_time" name="preferred_time" required>
                                         <option value="" disabled selected>Select time range</option>

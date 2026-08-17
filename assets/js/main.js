@@ -145,6 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         consultationForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
+            const modeInput = consultationForm.querySelector('#consultation_mode') || consultationForm.querySelector('[name="consultation_mode"]');
             const nameInput = consultationForm.querySelector('#name') || consultationForm.querySelector('[name="name"]');
             const emailInput = consultationForm.querySelector('#email') || consultationForm.querySelector('[name="email"]');
             const phoneInput = consultationForm.querySelector('#phone') || consultationForm.querySelector('[name="phone"]');
@@ -153,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const timeInput = consultationForm.querySelector('#preferred_time') || consultationForm.querySelector('[name="preferred_time"]');
             const msgInput = consultationForm.querySelector('#message') || consultationForm.querySelector('[name="message"]');
 
+            const mode = modeInput ? modeInput.value : 'Online / Offline';
             const name = nameInput ? nameInput.value.trim() : '';
             const email = emailInput ? emailInput.value.trim() : '';
             const phone = phoneInput ? phoneInput.value.trim() : '';
@@ -165,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 `📌 *Name:* ${name}\n` +
                 `📧 *Email:* ${email}\n` +
                 `📞 *Phone:* ${phone}\n` +
+                `🏥 *Consultation Mode:* ${mode}\n` +
                 `🎯 *Health Goal:* ${goal}\n` +
                 `📅 *Preferred Date:* ${date}\n` +
                 `⏰ *Preferred Time:* ${time}\n` +
