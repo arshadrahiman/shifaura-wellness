@@ -686,7 +686,7 @@ include_once __DIR__ . '/includes/header.php';
     <!-- 9. Book a Consultation Section -->
     <section class="section-bg-alt" id="book-consultation">
         <div class="container">
-            <div class="consultation-card">
+            <div class="consultation-card reveal reveal-scale">
                 <!-- Left Banner Info -->
                 <div class="consultation-info">
                     <div class="consultation-info-header">
