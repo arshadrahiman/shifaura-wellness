@@ -91,6 +91,40 @@ function is_active_link($page_name) {
       ]
     }
     </script>
+
+    <!-- Schema.org FAQPage Structured Data for Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do Online Virtual Consultations work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Online consultations are conducted via 1-on-1 video calls (WhatsApp / Zoom / Google Meet). You receive your customized diet chart on WhatsApp/Email, alongside daily meal tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the clinic located for In-Person consultations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our clinic is located at Nila Complex, Near Dmart, Podanur, Coimbatore - 641023."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the diet plans include traditional South Indian home foods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We strictly follow a No Crash Diet philosophy using traditional home kitchen foods adapted to your medical profile."
+          }
+        }
+      ]
+    }
+    </script>
     
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">

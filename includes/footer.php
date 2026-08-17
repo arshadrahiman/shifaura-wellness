@@ -62,7 +62,15 @@
                 <p>Designed with Care for Sustainable Health</p>
             </div>
         </div>
-    </footer>
+    <!-- Mobile Sticky Quick Action Bar (Call & WhatsApp) -->
+    <div class="mobile-sticky-bar">
+        <a href="tel:+916381757067" class="mobile-sticky-btn mobile-call-btn">
+            <i data-feather="phone" style="width: 16px; height: 16px;"></i> Call Clinic
+        </a>
+        <a href="https://wa.me/916381757067?text=Hello%20Dietitian%20Shifana.I,%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn mobile-wa-btn">
+            <i data-feather="message-circle" style="width: 16px; height: 16px;"></i> WhatsApp Us
+        </a>
+    </div>
 
     <!-- Feather Icons Render Script -->
     <script>
