@@ -22,9 +22,17 @@ include_once __DIR__ . '/includes/header.php';
     <section>
         <div class="container" style="max-width: 1000px;">
             <div class="about-widget-grid" style="grid-template-columns: 0.9fr 1.1fr;">
-                <div class="about-widget-image">
-                    <!-- Shifana.I Portrait placeholder. We will replace this with a generated image. -->
-                    <img src="assets/images/shifana_portrait.png" alt="Dietitian Shifana.I, M.Sc. Nutrition" style="width: 100%; height: 520px; object-fit: cover;">
+                <div class="about-widget-image" style="background: linear-gradient(135deg, var(--sandal-medium) 0%, var(--sandal-dark) 100%); border-radius: var(--radius-lg); padding: 3rem 2rem; border: 2px solid var(--gold); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-shadow: var(--shadow-md);">
+                    <img src="assets/images/logo.png" alt="SHIFAURA Logo" style="height: 64px; width: auto; background: rgba(255,255,255,0.95); padding: 8px 16px; border-radius: var(--radius-sm); margin-bottom: 2rem; display: block;">
+                    
+                    <h4 style="font-family: 'Bodoni Moda', serif; font-style: italic; font-size: 1.6rem; color: var(--green-dark); margin-bottom: 1.5rem;">Practitioner Credentials</h4>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 0.85rem; width: 100%;">
+                        <div style="background: var(--white); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.85rem; font-weight: 600; color: var(--green-dark); border: 1px solid var(--sandal-border);">🎓 M.Sc. Food Science &amp; Nutrition</div>
+                        <div style="background: var(--white); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.85rem; font-weight: 600; color: var(--green-dark); border: 1px solid var(--sandal-border);">🩺 Certified Diabetes Educator (CDE)</div>
+                        <div style="background: var(--white); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.85rem; font-weight: 600; color: var(--green-dark); border: 1px solid var(--sandal-border);">📜 UGC-NET Qualified Senior Nutritionist</div>
+                        <div style="background: var(--white); padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.85rem; font-weight: 600; color: var(--green-dark); border: 1px solid var(--sandal-border);">🏆 7+ Years Clinical &amp; Digital Experience</div>
+                    </div>
                 </div>
                 <div>
                     <h2 style="font-size: 2.25rem; margin-bottom: 1.5rem;">Academic Excellence & Clinical Expertise</h2>
