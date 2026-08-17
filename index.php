@@ -290,8 +290,9 @@ include_once __DIR__ . '/includes/header.php';
         </div>
     </section>
 
-    <!-- 3. Primary Health Goals Section -->
-    <section class="section-bg-alt" id="services">
+    <!-- 3. Primary Health Goals & Clinical Programs Section -->
+    <section class="section-bg-alt" id="services" id="clinical-programs">
+        <div id="clinical-programs"></div>
         <div class="container">
             <div class="section-header center reveal">
                 <span class="tag">Specialized Programs</span>
@@ -752,7 +753,7 @@ include_once __DIR__ . '/includes/header.php';
     </section>
 
     <!-- 8.8 Frequently Asked Questions (FAQ) Section -->
-    <section style="padding: 5rem 0; background: var(--sandal-light); border-top: 1px solid var(--sandal-border);">
+    <section id="faq-section" style="padding: 5rem 0; background: var(--sandal-light); border-top: 1px solid var(--sandal-border);">
         <div class="container" style="max-width: 900px;">
             <div class="section-header center reveal">
                 <span class="tag">Got Questions?</span>
