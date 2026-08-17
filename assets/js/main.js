@@ -205,7 +205,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
             revealElements.forEach(el => revealObserver.observe(el));
         } else {
-            revealElements.forEach(el => el.classList.add('active'));
-        }
+    // 7. Innovative Scroll To Top & SVG Progress Ring Logic
+    const innovativeScrollBtn = document.getElementById('innovativeScrollTopBtn');
+    const scrollCircle = document.getElementById('scrollProgressCircle');
+
+    if (innovativeScrollBtn) {
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = Math.min(100, Math.max(0, (scrollTop / docHeight) * 100));
+
+            if (scrollCircle) {
+                const offset = 100 - scrollPercent;
+                scrollCircle.style.strokeDashoffset = offset;
+            }
+
+            if (scrollTop > 280) {
+                innovativeScrollBtn.classList.add('active');
+            } else {
+                innovativeScrollBtn.classList.remove('active');
+            }
+        });
+
+        innovativeScrollBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     }
 });

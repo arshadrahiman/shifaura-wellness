@@ -1907,6 +1907,7 @@ html, body {
 }
 
 /* Mobile Floating Quick Action Bar */
+/* Mobile Floating Quick Action Bar */
 .mobile-sticky-bar {
     display: none;
     position: fixed;
@@ -1948,11 +1949,77 @@ html, body {
     color: #ffffff;
 }
 
+/* Innovative Floating Glass Pill & Scroll Progress Ring */
+.innovative-scroll-top {
+    position: fixed;
+    bottom: 2.25rem;
+    right: 2rem;
+    z-index: 9990;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(250, 243, 236, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1.5px solid var(--gold);
+    border-radius: 50px;
+    padding: 0.4rem 0.85rem 0.4rem 0.5rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.9);
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.4s ease, border-color 0.3s ease;
+}
+
+.innovative-scroll-top:hover {
+    transform: translateY(-4px) scale(1.03);
+    border-color: var(--green-dark);
+    background: rgba(248, 235, 222, 0.98);
+}
+
+.innovative-scroll-top.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.progress-ring-container {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-ring-circle {
+    transition: stroke-dashoffset 0.1s ease;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.scroll-top-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--green-dark);
+    text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
     .mobile-sticky-bar {
         display: flex !important;
     }
     footer {
         padding-bottom: 4.5rem !important;
+    }
+    .innovative-scroll-top {
+        bottom: 5.25rem !important;
+        right: 1rem !important;
+        padding: 0.35rem 0.75rem 0.35rem 0.4rem !important;
+    }
+    .scroll-top-label {
+        font-size: 0.7rem !important;
     }
 }

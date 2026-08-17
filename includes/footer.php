@@ -70,7 +70,17 @@
         <a href="https://wa.me/916381757067?text=Hello%20Dietitian%20Shifana.I,%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn mobile-wa-btn">
             <i data-feather="message-circle" style="width: 16px; height: 16px;"></i> WhatsApp Us
         </a>
-    </div>
+    <!-- Innovative Floating Glass Pill & Scroll Progress Ring -->
+    <button id="innovativeScrollTopBtn" class="innovative-scroll-top" aria-label="Scroll back to top">
+        <div class="progress-ring-container">
+            <svg width="32" height="32" viewBox="0 0 36 36">
+                <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="rgba(66, 75, 46, 0.15)" stroke-width="3" />
+                <path id="scrollProgressCircle" class="progress-ring-circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--gold)" stroke-width="3" stroke-dasharray="100, 100" stroke-dashoffset="100" />
+            </svg>
+            <i data-feather="arrow-up" style="width: 14px; height: 14px; color: var(--green-dark); position: absolute;"></i>
+        </div>
+        <span class="scroll-top-label">TOP</span>
+    </button>
 
     <!-- Feather Icons Render Script -->
     <script>
