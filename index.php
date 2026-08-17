@@ -137,7 +137,7 @@ include_once __DIR__ . '/includes/header.php';
     <!-- 2. Trust Statement Section -->
     <section class="section-bg-alt" style="padding: 5rem 0;">
         <div class="container">
-            <div class="trust-intro">
+            <div class="trust-intro reveal">
                 <span class="badge" style="margin-bottom: 1rem;">Holistic Philosophy</span>
                 <h3>Your Health Is More Than a Diet.</h3>
                 <p>
@@ -164,7 +164,7 @@ include_once __DIR__ . '/includes/header.php';
     <!-- 8 Pillars Section -->
     <section>
         <div class="container">
-            <div class="section-header center">
+            <div class="section-header center reveal">
                 <span class="tag">The Core Framework</span>
                 <h2>8 Pillars of SHIFAURA Wellness</h2>
                 <p>Holistic wellness starts with caring for the whole you. We integrate these elements into every health journey.</p>
@@ -172,69 +172,69 @@ include_once __DIR__ . '/includes/header.php';
             
             <div class="pillars-grid">
                 <!-- Pillar 1 -->
-                <div class="pillar-card">
+                <div class="pillar-card reveal delay-1">
                     <span class="pillar-icon">🥗</span>
                     <h3>Nourish</h3>
                     <p>Nutrition tailored to support metabolic, cellular, and overall wellbeing.</p>
                 </div>
                 <!-- Pillar 2 -->
-                <div class="pillar-card">
-                    <span class="pillar-icon">🏃</span>
+                <div class="pillar-card reveal delay-2">
+                    <span class="pillar-icon">🏃‍♀️</span>
                     <h3>Move</h3>
-                    <p>Physical activity integrated around your natural lifestyle and capability.</p>
+                    <p>Purposeful daily activity that fits naturally into your routine.</p>
                 </div>
                 <!-- Pillar 3 -->
-                <div class="pillar-card">
-                    <span class="pillar-icon">💧</span>
-                    <h3>Hydrate</h3>
-                    <p>Optimizing cellular functions through consistent, clean water habits.</p>
-                </div>
-                <!-- Pillar 4 -->
-                <div class="pillar-card">
+                <div class="pillar-card reveal delay-3">
                     <span class="pillar-icon">🌬️</span>
                     <h3>Breathe</h3>
-                    <p>Using breathing mechanics and quality air to manage stress and energy.</p>
+                    <p>Stress management and mindfulness practices to support your nervous system.</p>
+                </div>
+                <!-- Pillar 4 -->
+                <div class="pillar-card reveal delay-4">
+                    <span class="pillar-icon">💧</span>
+                    <h3>Hydrate</h3>
+                    <p>Optimal fluid balance to keep your metabolism functioning efficiently.</p>
                 </div>
                 <!-- Pillar 5 -->
-                <div class="pillar-card">
+                <div class="pillar-card reveal delay-1">
                     <span class="pillar-icon">😴</span>
-                    <h3>Restore</h3>
-                    <p>Deep, circadian-aligned sleep protocols for hormonal recovery.</p>
+                    <h3>Rest</h3>
+                    <p>Quality sleep and recovery to repair, rebalance, and revitalize your body.</p>
                 </div>
                 <!-- Pillar 6 -->
-                <div class="pillar-card">
-                    <span class="pillar-icon">❤️</span>
-                    <h3>Balance</h3>
-                    <p>Nurturing emotional stability and mental stillness in a busy life.</p>
+                <div class="pillar-card reveal delay-2">
+                    <span class="pillar-icon">☀️</span>
+                    <h3>Connect</h3>
+                    <p>Reconnecting with nature, sunlight, and a positive relationship with food.</p>
                 </div>
                 <!-- Pillar 7 -->
-                <div class="pillar-card">
-                    <span class="pillar-icon">✨</span>
-                    <h3>Connect</h3>
-                    <p>Fostering spiritual awareness and inner alignment for core power.</p>
+                <div class="pillar-card reveal delay-3">
+                    <span class="pillar-icon">🧠</span>
+                    <h3>Think</h3>
+                    <p>Cultivating a healthy mindset for sustainable, long-term habits.</p>
                 </div>
                 <!-- Pillar 8 -->
-                <div class="pillar-card">
+                <div class="pillar-card reveal delay-4">
                     <span class="pillar-icon">🌱</span>
-                    <h3>Reconnect</h3>
-                    <p>Tuning into nature, sunlight, and clean grounding for cellular health.</p>
+                    <h3>Thrive</h3>
+                    <p>Building a lifestyle that empowers you to feel your best every day.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 3. Your Health Goals Section -->
-    <section class="section-bg-alt">
+    <!-- 3. Primary Health Goals Section -->
+    <section class="section-bg-alt" id="services">
         <div class="container">
-            <div class="section-header">
-                <span class="tag">What are you working toward?</span>
-                <h2>Nutrition That Meets You Where You Are</h2>
-                <p>Whether you're working toward a specific health goal or simply want to feel better in your body, your plan should be designed for you.</p>
+            <div class="section-header center reveal">
+                <span class="tag">Specialized Programs</span>
+                <h2>Targeted Health &amp; Clinical Goals</h2>
+                <p>Root-cause protocols tailored to your unique metabolic profile and health history.</p>
             </div>
 
             <div class="goals-grid">
                 <!-- Goal 1 -->
-                <div class="goal-card">
+                <div class="goal-card reveal delay-1">
                     <div class="goal-icon"><i data-feather="scale"></i></div>
                     <h3>Weight Management</h3>
                     <p>Personalized strategies for sustainable weight loss and healthy weight gain, avoiding starvation or crash trends.</p>
@@ -453,7 +453,7 @@ include_once __DIR__ . '/includes/header.php';
             <!-- Packages Cards Grid (No Price Display) -->
             <div class="packages-grid">
                 <!-- Package 1: Weight Management -->
-                <div class="package-card">
+                <div class="package-card reveal reveal-scale delay-1">
                     <h3 class="package-title">Weight Management</h3>
                     <p class="package-subtitle">For sustainable weight loss or healthy weight gain using practical dietary rules.</p>
                     <ul class="package-features">
@@ -467,7 +467,7 @@ include_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <!-- Package 2: Diabetes Care (Featured) -->
-                <div class="package-card featured">
+                <div class="package-card featured reveal reveal-scale delay-2">
                     <span class="package-featured-badge">Highly Specialised</span>
                     <h3 class="package-title">Diabetes Management</h3>
                     <p class="package-subtitle">Clinically aligned diets focusing on blood sugar control, insulin sensitivity, and medication tapering.</p>
@@ -482,15 +482,15 @@ include_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <!-- Package 3: PMOS & Hormonal Health -->
-                <div class="package-card">
+                <div class="package-card reveal reveal-scale delay-3">
                     <h3 class="package-title">PMOS &amp; Hormones</h3>
                     <p class="package-subtitle">Targeting insulin resistance, gut health, ovarian functions, and cycle normalization.</p>
                     <ul class="package-features">
                         <li><i data-feather="check"></i> <span>Insulin reversing culinary techniques</span></li>
-                        <li><i data-feather="check"></i> <span>Monthly ovulation &amp; period cycle logs</span></li>
-                        <li><i data-feather="check"></i> <span>Hormonal evaluation reviews &amp; reports help</span></li>
-                        <li><i data-feather="check"></i> <span>Acne, hirsutism, &amp; hair fall diet fixes</span></li>
-                        <li><i data-feather="check"></i> <span>Sleep &amp; stress management protocols</span></li>
+                        <li><i data-feather="check"></i> <span>Androgen &amp; acne management foods</span></li>
+                        <li><i data-feather="check"></i> <span>Supplement &amp; micronutrient balancing</span></li>
+                        <li><i data-feather="check"></i> <span>Ovulation &amp; period regularity tracking</span></li>
+                        <li><i data-feather="check"></i> <span>Fertility nutrition readiness</span></li>
                     </ul>
                     <a href="#book-consultation" class="btn btn-primary" style="margin-top: auto; justify-content: center;">Enroll Program</a>
                 </div>
