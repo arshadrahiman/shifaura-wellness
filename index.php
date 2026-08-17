@@ -454,7 +454,6 @@ include_once __DIR__ . '/includes/header.php';
             <div class="packages-grid">
                 <!-- Package 1: Weight Management -->
                 <div class="package-card">
-                    <span class="package-featured-badge" style="background: var(--green-medium); color: var(--white); top: 1rem; right: 1rem;">3 / 6 Months</span>
                     <h3 class="package-title">Weight Management</h3>
                     <p class="package-subtitle">For sustainable weight loss or healthy weight gain using practical dietary rules.</p>
                     <ul class="package-features">
@@ -484,7 +483,6 @@ include_once __DIR__ . '/includes/header.php';
 
                 <!-- Package 3: PMOS & Hormonal Health -->
                 <div class="package-card">
-                    <span class="package-featured-badge" style="background: var(--green-medium); color: var(--white); top: 1rem; right: 1rem;">3 / 6 Months</span>
                     <h3 class="package-title">PMOS &amp; Hormones</h3>
                     <p class="package-subtitle">Targeting insulin resistance, gut health, ovarian functions, and cycle normalization.</p>
                     <ul class="package-features">
