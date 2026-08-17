@@ -205,6 +205,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             revealElements.forEach(el => revealObserver.observe(el));
         } else {
+            revealElements.forEach(el => el.classList.add('active'));
+        }
+    }
+
     // 7. Innovative Scroll To Top & SVG Progress Ring Logic
     const innovativeScrollBtn = document.getElementById('innovativeScrollTopBtn');
     const scrollCircle = document.getElementById('scrollProgressCircle');
