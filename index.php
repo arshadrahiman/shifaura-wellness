@@ -291,8 +291,7 @@ include_once __DIR__ . '/includes/header.php';
     </section>
 
     <!-- 3. Primary Health Goals & Clinical Programs Section -->
-    <section class="section-bg-alt" id="services" id="clinical-programs">
-        <div id="clinical-programs"></div>
+    <section class="section-bg-alt" id="services">
         <div class="container">
             <div class="section-header center reveal">
                 <span class="tag">Specialized Programs</span>
