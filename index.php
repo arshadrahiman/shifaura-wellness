@@ -742,10 +742,16 @@ include_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <!-- Right Form Area -->
-                <div class="consultation-form-container">
-                    <div class="consultation-form">
-                        <h4>Tell Us About Yourself</h4>
-                        
+                        <!-- Innovative Form Filling Section Header -->
+                        <div style="margin-bottom: 2rem;">
+                            <h4>Tell Us About Yourself</h4>
+                            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+                                <span style="background: var(--sandal-medium); color: var(--green-dark); font-size: 0.75rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 50px; border: 1px solid var(--gold-alt);">1. Personal Details</span>
+                                <span style="background: var(--sandal-medium); color: var(--green-dark); font-size: 0.75rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 50px; border: 1px solid var(--gold-alt);">2. Mode &amp; Goal</span>
+                                <span style="background: var(--sandal-medium); color: var(--green-dark); font-size: 0.75rem; font-weight: 700; padding: 0.35rem 0.75rem; border-radius: 50px; border: 1px solid var(--gold-alt);">3. Schedule Slot</span>
+                            </div>
+                        </div>
+
                         <?php if ($booking_success): ?>
                             <div style="background-color: var(--green-light); border: 1px solid var(--green-medium); color: var(--green-dark); padding: 1.25rem; border-radius: var(--radius-sm); margin-bottom: 2rem; display: flex; align-items: center; gap: 0.75rem;">
                                 <i data-feather="check-circle" style="color: var(--success);"></i>
@@ -769,22 +775,22 @@ include_once __DIR__ . '/includes/header.php';
                             
                             <div class="form-grid">
                                 <div class="form-group">
-                                    <label for="name">Your Name *</label>
+                                    <label for="name">👤 Your Name *</label>
                                     <input type="text" id="name" name="name" required placeholder="e.g. John Doe">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email Address *</label>
+                                    <label for="email">📧 Email Address *</label>
                                     <input type="email" id="email" name="email" required placeholder="e.g. john@example.com">
                                 </div>
                             </div>
 
                             <div class="form-grid">
                                 <div class="form-group">
-                                    <label for="phone">Phone Number *</label>
-                                    <input type="tel" id="phone" name="phone" required placeholder="e.g. +91 9876543210">
+                                    <label for="phone">📞 Phone / WhatsApp *</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="e.g. +91 6381757067">
                                 </div>
                                 <div class="form-group">
-                                    <label for="consultation_mode">Consultation Mode *</label>
+                                    <label for="consultation_mode">🏥 Consultation Mode *</label>
                                     <select id="consultation_mode" name="consultation_mode" required>
                                         <option value="" disabled selected>Select Online or Offline</option>
                                         <option value="Online Consultation (Video/WhatsApp)">💻 Online Consultation (Video / WhatsApp)</option>
@@ -795,7 +801,7 @@ include_once __DIR__ . '/includes/header.php';
 
                             <div class="form-grid">
                                 <div class="form-group">
-                                    <label for="health_goal">Primary Health Goal *</label>
+                                    <label for="health_goal">🎯 Primary Health Goal *</label>
                                     <select id="health_goal" name="health_goal" required>
                                         <option value="" disabled selected>Select a goal</option>
                                         <option value="Weight Loss">Weight Loss &amp; Fat Reduction</option>
@@ -808,14 +814,14 @@ include_once __DIR__ . '/includes/header.php';
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="preferred_date">Preferred Date *</label>
+                                    <label for="preferred_date">📅 Preferred Date *</label>
                                     <input type="date" id="preferred_date" name="preferred_date" required min="<?php echo date('Y-m-d'); ?>">
                                 </div>
                             </div>
 
                             <div class="form-grid">
                                 <div class="form-group full-width">
-                                    <label for="preferred_time">Preferred Time slot *</label>
+                                    <label for="preferred_time">⏰ Preferred Time Slot *</label>
                                     <select id="preferred_time" name="preferred_time" required>
                                         <option value="" disabled selected>Select time range</option>
                                         <option value="10:00 AM - 12:00 PM">Morning (10:00 AM - 12:00 PM)</option>
@@ -827,8 +833,8 @@ include_once __DIR__ . '/includes/header.php';
                             </div>
 
                             <div class="form-group full-width">
-                                <label for="message">Medical Background / Short Message</label>
-                                <textarea id="message" name="message" rows="4" placeholder="Briefly share any medical conditions (e.g. high BP, thyroid) or lifestyle details."></textarea>
+                                <label for="message">📝 Medical Background / Notes</label>
+                                <textarea id="message" name="message" rows="3" placeholder="Briefly share any medical conditions (e.g. high BP, thyroid) or lifestyle details."></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">Submit Consultation Request</button>
