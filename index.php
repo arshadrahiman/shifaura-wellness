@@ -629,7 +629,7 @@ include_once __DIR__ . '/includes/header.php';
                                 <textarea id="message" name="message" rows="4" placeholder="Briefly share any medical conditions (e.g. high BP, thyroid) or lifestyle details."></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">Submit Consultation Request</button>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem; background-color: #25D366; border-color: #25D366; color: #FFFFFF; font-weight: 600; font-size: 1rem; gap: 0.6rem;"><i data-feather="message-circle" style="width: 20px; height: 20px;"></i> Send Request via WhatsApp</button>
                         </form>
                     </div>
                 </div>

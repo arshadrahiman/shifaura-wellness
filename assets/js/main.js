@@ -139,42 +139,48 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. Google Sheets Integration Handler for Contact Form
-    // To activate, paste your Google Apps Script Web App URL below:
-    window.GOOGLE_SHEET_URL = ''; // e.g., 'https://script.google.com/macros/s/AKfycb.../exec'
-
-    const consultationForm = document.querySelector('form[action="index.php#book-consultation"]');
+    // 5. WhatsApp Form Submission Handler for "Tell Us About Yourself"
+    const consultationForm = document.querySelector('form[action="index.php#book-consultation"], #book-consultation form');
     if (consultationForm) {
-        consultationForm.addEventListener('submit', (e) => {
-            if (window.GOOGLE_SHEET_URL && window.GOOGLE_SHEET_URL.startsWith('http')) {
-                e.preventDefault();
-                const formData = new FormData(consultationForm);
-                const submitBtn = consultationForm.querySelector('button[type="submit"]');
-                if (submitBtn) {
-                    submitBtn.disabled = true;
-                    submitBtn.textContent = 'Submitting Request...';
-                }
+        consultationForm.addEventListener('submit', function(e) {
+            e.preventDefault();
 
+            const nameInput = consultationForm.querySelector('#name') || consultationForm.querySelector('[name="name"]');
+            const emailInput = consultationForm.querySelector('#email') || consultationForm.querySelector('[name="email"]');
+            const phoneInput = consultationForm.querySelector('#phone') || consultationForm.querySelector('[name="phone"]');
+            const goalInput = consultationForm.querySelector('#health_goal') || consultationForm.querySelector('[name="health_goal"]');
+            const dateInput = consultationForm.querySelector('#preferred_date') || consultationForm.querySelector('[name="preferred_date"]');
+            const timeInput = consultationForm.querySelector('#preferred_time') || consultationForm.querySelector('[name="preferred_time"]');
+            const msgInput = consultationForm.querySelector('#message') || consultationForm.querySelector('[name="message"]');
+
+            const name = nameInput ? nameInput.value.trim() : '';
+            const email = emailInput ? emailInput.value.trim() : '';
+            const phone = phoneInput ? phoneInput.value.trim() : '';
+            const goal = goalInput ? goalInput.value : '';
+            const date = dateInput ? dateInput.value : '';
+            const time = timeInput ? timeInput.value : '';
+            const message = msgInput ? msgInput.value.trim() : '';
+
+            const whatsappMessage = `Hello Dietitian Shifana.I, I would like to book a consultation for SHIFAURA Wellness:\n\n` +
+                `📌 *Name:* ${name}\n` +
+                `📧 *Email:* ${email}\n` +
+                `📞 *Phone:* ${phone}\n` +
+                `🎯 *Health Goal:* ${goal}\n` +
+                `📅 *Preferred Date:* ${date}\n` +
+                `⏰ *Preferred Time:* ${time}\n` +
+                `💬 *Message:* ${message || 'None'}`;
+
+            const whatsappUrl = `https://wa.me/916381757067?text=${encodeURIComponent(whatsappMessage)}`;
+
+            // Optional background post to Google Sheet if configured
+            if (window.GOOGLE_SHEET_URL && window.GOOGLE_SHEET_URL.startsWith('http')) {
                 fetch(window.GOOGLE_SHEET_URL, {
                     method: 'POST',
-                    body: formData
-                })
-                .then(res => res.json())
-                .then(data => {
-                    alert('Thank you! Your consultation request has been saved to Google Sheets and emailed to info@dietitianshifana.com.');
-                    consultationForm.reset();
-                })
-                .catch(err => {
-                    alert('Thank you! Your consultation request has been submitted successfully.');
-                    consultationForm.reset();
-                })
-                .finally(() => {
-                    if (submitBtn) {
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'Submit Consultation Request';
-                    }
-                });
+                    body: new FormData(consultationForm)
+                }).catch(err => console.log(err));
             }
+
+            window.open(whatsappUrl, '_blank');
         });
     }
 });
