@@ -16,19 +16,81 @@ function is_active_link($page_name) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
-    <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' - ' . SITE_TAGLINE; ?></title>
-    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'SHIFAURA by Dietitian Shifana.I. Personalized nutrition and holistic wellness programs built around your body, lifestyle, and goals.'; ?>">
-    <meta name="keywords" content="dietitian, nutritionist, weight loss, diabetes, PMOS, thyroid health, fertility nutrition, hormonal wellness, healthy lifestyle, shifaura, shifana">
+    <!-- SEO & Local Digital Marketing Meta Tags -->
+    <title><?php echo isset($page_title) ? $page_title . ' | SHIFAURA by Dietitian Shifana.I' : 'Dietitian Shifana.I | Best Clinical Nutritionist in Coimbatore, Tamil Nadu & Kerala'; ?></title>
+    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Senior Clinical Dietitian Shifana.I (M.Sc. Food & Nutrition, Certified Diabetes Educator). In-Clinic consultation at Podanur, Coimbatore & Worldwide Online consultations across Tamil Nadu (Chennai, Madurai, Salem) & Kerala (Kochi, Calicut, Palakkad). Weight Loss, PMOS, Diabetes Care.'; ?>">
+    <meta name="keywords" content="Best Dietitian in Coimbatore, Clinical Nutritionist Podanur, Certified Diabetes Educator Coimbatore, PCOS Dietitian Tamil Nadu, Online Dietitian Kerala, Weight Loss Consultation Coimbatore, Dietitian Shifana.I, Dietitian Kochi Calicut Palakkad, Fertility Nutritionist Coimbatore">
     <meta name="author" content="Dietitian Shifana.I">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="IN-TN">
+    <meta name="geo.placename" content="Coimbatore, Podanur, Tamil Nadu">
+    <meta name="geo.position" content="10.9633;76.9734">
+    <meta name="ICBM" content="10.9633, 76.9734">
     <link rel="canonical" href="https://www.dietitianshifana.com/">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="SHIFAURA by Dietitian Shifana.I - Personalized Nutrition">
-    <meta property="og:description" content="Evidence-based nutrition and holistic wellness personalized to your body, lifestyle, and goals.">
+    <meta property="og:title" content="Dietitian Shifana.I | Clinical Nutrition & Diabetes Care (Coimbatore, Tamil Nadu & Kerala)">
+    <meta property="og:description" content="Evidence-based nutrition and holistic wellness by Dietitian Shifana.I (7+ Yrs Exp, Former HealthifyMe Master Coach). Online & In-Clinic Podanur consultations.">
     <meta property="og:url" content="https://www.dietitianshifana.com/">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.dietitianshifana.com/assets/images/shifana_hero.png">
+    <meta property="og:image" content="https://www.dietitianshifana.com/assets/images/logo.png">
+
+    <!-- Schema.org JSON-LD Structured Data for Local SEO (Coimbatore, Tamil Nadu, Kerala) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "SHIFAURA by Dietitian Shifana.I",
+      "image": "https://www.dietitianshifana.com/assets/images/logo.png",
+      "@id": "https://www.dietitianshifana.com",
+      "url": "https://www.dietitianshifana.com",
+      "telephone": "+916381757067",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Nila Complex, Near Dmart, Podanur",
+        "addressLocality": "Coimbatore",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "641023",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.9633,
+        "longitude": 76.9734
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      },
+      "areaServed": [
+        {"@type": "AdministrativeArea", "name": "Coimbatore"},
+        {"@type": "AdministrativeArea", "name": "Podanur"},
+        {"@type": "AdministrativeArea", "name": "Tamil Nadu"},
+        {"@type": "AdministrativeArea", "name": "Kerala"},
+        {"@type": "City", "name": "Chennai"},
+        {"@type": "City", "name": "Madurai"},
+        {"@type": "City", "name": "Kochi"},
+        {"@type": "City", "name": "Kozhikode"},
+        {"@type": "City", "name": "Palakkad"}
+      ],
+      "medicalSpecialty": [
+        "Dietetics",
+        "Endocrinology",
+        "Diabetes Care",
+        "Women Health"
+      ]
+    }
+    </script>
     
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">

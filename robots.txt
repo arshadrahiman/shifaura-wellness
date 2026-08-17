@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /db/
+Disallow: /includes/
+
+Sitemap: https://www.dietitianshifana.com/sitemap.xml

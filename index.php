@@ -683,6 +683,70 @@ include_once __DIR__ . '/includes/header.php';
     </section> 
     -->
 
+    <!-- 8.5 Regional Reach & Local Digital Marketing Section (Coimbatore, Tamil Nadu & Kerala) -->
+    <section style="padding: 4.5rem 0; background: var(--sandal-medium); border-top: 1px solid var(--sandal-border); border-bottom: 1px solid var(--sandal-border);">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="tag">Regional Reach &amp; Care</span>
+                <h2>In-Clinic Care in Coimbatore &amp; Online Consultations Across Tamil Nadu &amp; Kerala</h2>
+                <p>Dietitian Shifana.I provides personalized clinical nutrition both in-person at Podanur, Coimbatore and virtually worldwide.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;" class="reveal reveal-scale">
+                <!-- Location 1: Coimbatore Local Clinic -->
+                <div style="background: var(--sandal-light); border: 1.5px solid var(--gold); border-radius: var(--radius-md); padding: 1.75rem 1.5rem; text-align: left;">
+                    <div style="font-size: 2rem; margin-bottom: 0.75rem;">🏥</div>
+                    <h3 style="font-size: 1.25rem; color: var(--green-dark); margin-bottom: 0.5rem;">Coimbatore Clinic (Offline)</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                        <strong>Location:</strong> Nila Complex, Near Dmart, Podanur, Coimbatore - 641023.
+                    </p>
+                    <div style="font-size: 0.78rem; color: var(--sienna); font-weight: 700; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Podanur</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">RS Puram</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Race Course</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Peelamedu</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Gandhipuram</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Saravanampatti</span>
+                    </div>
+                </div>
+
+                <!-- Location 2: Tamil Nadu Online Care -->
+                <div style="background: var(--sandal-light); border: 1.5px solid var(--gold); border-radius: var(--radius-md); padding: 1.75rem 1.5rem; text-align: left;">
+                    <div style="font-size: 2rem; margin-bottom: 0.75rem;">💻</div>
+                    <h3 style="font-size: 1.25rem; color: var(--green-dark); margin-bottom: 0.5rem;">Tamil Nadu Online Virtual Care</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                        Direct 1-on-1 video calls &amp; daily WhatsApp meal guidance across major cities in Tamil Nadu.
+                    </p>
+                    <div style="font-size: 0.78rem; color: var(--sienna); font-weight: 700; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Chennai</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Madurai</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Trichy</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Salem</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Erode</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Tirupur</span>
+                    </div>
+                </div>
+
+                <!-- Location 3: Kerala Online Care -->
+                <div style="background: var(--sandal-light); border: 1.5px solid var(--gold); border-radius: var(--radius-md); padding: 1.75rem 1.5rem; text-align: left;">
+                    <div style="font-size: 2rem; margin-bottom: 0.75rem;">🌴</div>
+                    <h3 style="font-size: 1.25rem; color: var(--green-dark); margin-bottom: 0.5rem;">Kerala &amp; Global Virtual Care</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                        Specialized South Indian dietary plans designed for NRI &amp; Kerala clients worldwide.
+                    </p>
+                    <div style="font-size: 0.78rem; color: var(--sienna); font-weight: 700; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Palakkad</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Kochi</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Kozhikode</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Thrissur</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Malappuram</span>
+                        <span style="background: var(--sandal-medium); padding: 3px 8px; border-radius: 4px;">Trivandrum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 9. Book a Consultation Section -->
     <section class="section-bg-alt" id="book-consultation">
         <div class="container">
