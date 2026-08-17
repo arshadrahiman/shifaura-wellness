@@ -66,14 +66,11 @@ function is_active_link($page_name) {
             </div>
         </div>
 
-        <!-- Mobile Drawer Navigation -->
+        <!-- Mobile Nav Drawer -->
         <div class="mobile-nav">
             <ul class="mobile-nav-links">
                 <li><a href="index.php" class="<?php echo is_active_link('index.php'); ?>">Home</a></li>
-                <!-- <li><a href="about.php" class="<?php echo is_active_link('about.php'); ?>">About</a></li> -->
-                <!-- <li><a href="services.php" class="<?php echo is_active_link('services.php'); ?>">Services</a></li> -->
-                <!-- <li><a href="approach.php" class="<?php echo is_active_link('approach.php'); ?>">Our Approach</a></li> -->
-                <!-- <li><a href="resources.php" class="<?php echo is_active_link('resources.php'); ?>">Resources</a></li> -->
+                <li><a href="index.php#packages">Pricing &amp; Plans</a></li>
                 <li style="margin-top: 1.5rem;"><a href="index.php#book-consultation" class="btn btn-primary" style="display: block; text-align: center; color: var(--sandal-light);">Book Consultation</a></li>
             </ul>
         </div>
