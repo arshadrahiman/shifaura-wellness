@@ -1948,11 +1948,49 @@ html, body {
     color: #ffffff;
 }
 
+/* Scroll To Top Button */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--green-dark);
+    color: var(--sandal-light);
+    border: 2px solid var(--gold);
+    box-shadow: var(--shadow-lg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s ease, visibility 0.35s ease, transform 0.25s ease;
+    z-index: 9990;
+}
+
+.scroll-to-top-btn:hover {
+    transform: translateY(-4px);
+    background-color: #2A331F;
+}
+
+.scroll-to-top-btn.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 @media (max-width: 768px) {
     .mobile-sticky-bar {
         display: flex !important;
     }
     footer {
         padding-bottom: 4.5rem !important;
+    }
+    .scroll-to-top-btn {
+        bottom: 5.25rem !important;
+        right: 1.25rem !important;
+        width: 42px !important;
+        height: 42px !important;
     }
 }

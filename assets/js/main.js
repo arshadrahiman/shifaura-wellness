@@ -205,7 +205,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             revealElements.forEach(el => revealObserver.observe(el));
         } else {
-            revealElements.forEach(el => el.classList.add('active'));
-        }
+    // 7. Scroll To Top Button Logic
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    if (scrollToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 350) {
+                scrollToTopBtn.classList.add('active');
+            } else {
+                scrollToTopBtn.classList.remove('active');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     }
 });
