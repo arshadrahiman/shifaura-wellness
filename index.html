@@ -386,123 +386,72 @@
                 <p>Select a goal-oriented plan that works for you. All plans include direct care, structured guides, and continuous updates.</p>
             </div>
 
-            <div class="price-toggle-container">
-                <span class="toggle-label">Monthly Billing</span>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="price-duration-toggle">
-                    <span class="slider"></span>
-                </label>
-                <span class="toggle-label">3-Month Program (Save ~15%)</span>
+            <!-- Duration Selector (3-Month & 6-Month Programs Only) -->
+            <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2.5rem;">
+                <span class="badge" style="padding: 0.6rem 1.5rem; font-size: 0.85rem; background: var(--green-dark); color: var(--sandal-light);">Available Programs: 3 Months &amp; 6 Months</span>
             </div>
 
+            <!-- Packages Cards Grid (No Price Display) -->
             <div class="packages-grid">
-                <div class="package-card" data-price-monthly="2999" data-price-quarterly="7499">
+                <!-- Package 1: Weight Management -->
+                <div class="package-card">
+                    <span class="package-featured-badge" style="background: var(--green-medium); color: var(--white); top: 1rem; right: 1rem;">3 / 6 Months</span>
                     <h3 class="package-title">Weight Management</h3>
                     <p class="package-subtitle">For sustainable weight loss or healthy weight gain using practical dietary rules.</p>
-                    <div class="package-price-box">
-                        <span class="package-price-currency">₹</span>
-                        <span class="package-price">2,999</span>
-                        <span class="package-price-period"> / Month</span>
-                    </div>
                     <ul class="package-features">
-                        <li><i data-feather="check"></i> <span>Customized diet & food structures</span></li>
-                        <li><i data-feather="check"></i> <span>Weekly review & tracking metrics</span></li>
-                        <li><i data-feather="check"></i> <span>Daily WhatsApp support (10 AM - 7 PM)</span></li>
-                        <li><i data-feather="check"></i> <span>Restaurant & travel eating guidelines</span></li>
-                        <li><i data-feather="check"></i> <span>Simple activity & home workout plans</span></li>
+                        <li><i data-feather="check"></i> <span>Customized diet &amp; food structures</span></li>
+                        <li><i data-feather="check"></i> <span>Weekly review &amp; tracking metrics</span></li>
+                        <li><i data-feather="check"></i> <span>Daily WhatsApp support (+91 6381757067)</span></li>
+                        <li><i data-feather="check"></i> <span>Restaurant &amp; travel eating guidelines</span></li>
+                        <li><i data-feather="check"></i> <span>Simple activity &amp; home workout plans</span></li>
                     </ul>
-                    <a href="checkout.html?package=weight-management" class="btn btn-primary" style="margin-top: auto;">Get Started</a>
+                    <a href="#book-consultation" class="btn btn-primary" style="margin-top: auto; justify-content: center;">Enroll Program</a>
                 </div>
 
-                <div class="package-card featured" data-price-monthly="3499" data-price-quarterly="8999">
+                <!-- Package 2: Diabetes Care (Featured) -->
+                <div class="package-card featured">
                     <span class="package-featured-badge">Highly Specialised</span>
                     <h3 class="package-title">Diabetes Management</h3>
                     <p class="package-subtitle">Clinically aligned diets focusing on blood sugar control, insulin sensitivity, and medication tapering.</p>
-                    <div class="package-price-box">
-                        <span class="package-price-currency">₹</span>
-                        <span class="package-price">3,499</span>
-                        <span class="package-price-period"> / Month</span>
-                    </div>
                     <ul class="package-features">
                         <li><i data-feather="check"></i> <span>Low glycemic customized food charts</span></li>
-                        <li><i data-feather="check"></i> <span>HbA1c & sugar review tracker reviews</span></li>
+                        <li><i data-feather="check"></i> <span>HbA1c &amp; sugar review tracker reviews</span></li>
                         <li><i data-feather="check"></i> <span>Continuous Glucose Monitor (CGM) support</span></li>
                         <li><i data-feather="check"></i> <span>Direct guidance by CDE Shifana</span></li>
                         <li><i data-feather="check"></i> <span>Cardiovascular and lifestyle updates</span></li>
                     </ul>
-                    <a href="checkout.html?package=diabetes-management" class="btn btn-gold" style="margin-top: auto;">Get Started</a>
+                    <a href="#book-consultation" class="btn btn-gold" style="margin-top: auto; justify-content: center;">Enroll Program</a>
                 </div>
 
-                <div class="package-card" data-price-monthly="3499" data-price-quarterly="8999">
-                    <h3 class="package-title">PCOS & Hormones</h3>
+                <!-- Package 3: PCOS & Hormonal Health -->
+                <div class="package-card">
+                    <span class="package-featured-badge" style="background: var(--green-medium); color: var(--white); top: 1rem; right: 1rem;">3 / 6 Months</span>
+                    <h3 class="package-title">PCOS &amp; Hormones</h3>
                     <p class="package-subtitle">Targeting insulin resistance, gut health, ovarian functions, and cycle normalization.</p>
-                    <div class="package-price-box">
-                        <span class="package-price-currency">₹</span>
-                        <span class="package-price">3,499</span>
-                        <span class="package-price-period"> / Month</span>
-                    </div>
                     <ul class="package-features">
                         <li><i data-feather="check"></i> <span>Insulin reversing culinary techniques</span></li>
-                        <li><i data-feather="check"></i> <span>Monthly ovulation & period cycle log logs</span></li>
-                        <li><i data-feather="check"></i> <span>Hormonal evaluation reviews & reports help</span></li>
-                        <li><i data-feather="check"></i> <span>Acne, hirsutism, & hair fall diet fixes</span></li>
-                        <li><i data-feather="check"></i> <span>Sleep & stress management protocols</span></li>
+                        <li><i data-feather="check"></i> <span>Monthly ovulation &amp; period cycle logs</span></li>
+                        <li><i data-feather="check"></i> <span>Hormonal evaluation reviews &amp; reports help</span></li>
+                        <li><i data-feather="check"></i> <span>Acne, hirsutism, &amp; hair fall diet fixes</span></li>
+                        <li><i data-feather="check"></i> <span>Sleep &amp; stress management protocols</span></li>
                     </ul>
-                    <a href="checkout.html?package=pcos-hormonal" class="btn btn-primary" style="margin-top: auto;">Get Started</a>
+                    <a href="#book-consultation" class="btn btn-primary" style="margin-top: auto; justify-content: center;">Enroll Program</a>
                 </div>
             </div>
-            
-            <!-- <div style="text-align: center; margin-top: 3rem;">
-                <p style="font-size: 0.9rem; color: var(--text-muted);">Looking for Thyroid, Fertility or Holistic wellness packages? <a href="services.html" style="color: var(--green-dark); font-weight: 600; text-decoration: underline;">View all program options &rarr;</a></p>
-            </div> -->
         </div>
     </section>
 
-    <!-- 8. Testimonials Section -->
+    <!-- 8. Testimonials Section (Disabled per user request) -->
+    <!-- 
     <section>
         <div class="container">
             <div class="section-header center">
                 <span class="tag">Success Stories</span>
                 <h2>Real Transformations. Real People.</h2>
-                <p>Read about the journeys of clients who transformed their health and habits through Dietitian Shifana's personalized guidance.</p>
-            </div>
-
-            <div class="testimonials-slider-container">
-                <div class="testimonial-slide active">
-                    <div class="testimonial-quote-icon">&ldquo;</div>
-                    <p class="testimonial-text">
-                        "I struggled with PCOS and stubborn weight for over 4 years. Shifana didn't just hand me a diet chart; she helped me restructure my meals, sleep routines, and morning sunlight. Within 3 months, my cycles regularized and I lost 7 kg sustainably!"
-                    </p>
-                    <div class="testimonial-author">Priyanka Sharma</div>
-                    <div class="testimonial-author-meta">Lost 7kg & Regularized Cycles (3 Months PCOS Plan)</div>
-                </div>
-
-                <div class="testimonial-slide">
-                    <div class="testimonial-quote-icon">&ldquo;</div>
-                    <p class="testimonial-text">
-                        "As a diabetic, I was always terrified of carbs. Shifana taught me how to pair foods to prevent glucose spikes. My HbA1c dropped from 8.2 to 6.4 in 90 days, and my doctor reduced my metformin dosage. Truly life-changing!"
-                    </p>
-                    <div class="testimonial-author">Rajesh Iyer</div>
-                    <div class="testimonial-author-meta">HbA1c from 8.2 to 6.4 (3 Months Diabetes Program)</div>
-                </div>
-
-                <div class="testimonial-slide">
-                    <div class="testimonial-quote-icon">&ldquo;</div>
-                    <p class="testimonial-text">
-                        "I was constant fatigue, bloated, and stressed. Incorporating Shifana's 8 pillars of wellness—especially hydration, nasal breathing, and nature walks—entirely changed my energy levels. I feel 10 years younger."
-                    </p>
-                    <div class="testimonial-author">Anjali Nair</div>
-                    <div class="testimonial-author-meta">Energy Restoration & Digestive Relief (Holistic Wellness Plan)</div>
-                </div>
-
-                <div class="testimonials-nav">
-                    <span class="testimonial-dot active"></span>
-                    <span class="testimonial-dot"></span>
-                    <span class="testimonial-dot"></span>
-                </div>
             </div>
         </div>
-    </section>
+    </section> 
+    -->
 
     <!-- 9. Book a Consultation Section -->
     <section class="section-bg-alt" id="book-consultation">
