@@ -82,7 +82,7 @@ include_once __DIR__ . '/includes/header.php';
         <div class="container hero-grid">
             <div class="hero-content">
                 <h1>
-                    <span>SHIFAURA</span>
+                    <span class="brand-highlight">SHIFAURA</span>
                     Personalized Nutrition.<br>Proven Results.
                 </h1>
                 <p class="hero-subtitle">

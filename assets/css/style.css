@@ -342,20 +342,26 @@ section {
 }
 
 .hero-content h1 {
-    font-size: 4rem;
+    font-size: 3.25rem;
     margin-bottom: 1.5rem;
-    line-height: 1.1;
+    line-height: 1.15;
 }
 
-.hero-content h1 span {
+.hero-content h1 span.brand-highlight,
+.brand-highlight {
     display: block;
-    font-size: 1.75rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: var(--gold-dark);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 4.75rem;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--green-dark);
+    background: linear-gradient(135deg, #424B2E 0%, #A97D51 55%, #C6A06E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.06em;
     margin-bottom: 0.5rem;
+    line-height: 1.1;
+    filter: drop-shadow(0 2px 4px rgba(66, 75, 46, 0.08));
 }
 
 .hero-subtitle {
