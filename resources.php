@@ -70,10 +70,10 @@ include_once __DIR__ . '/includes/header.php';
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
                 <!-- Article 1 -->
                 <article style="background: var(--white); border: 1px solid var(--sandal-border); border-radius: var(--radius-md); overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-sm); transition: var(--transition);">
-                    <img src="assets/images/article_pcos.jpg" alt="PCOS and Insulin Resistance article image" style="width: 100%; height: 220px; object-fit: cover;">
+                    <img src="assets/images/article_pcos.jpg" alt="PMOS and Insulin Resistance article image" style="width: 100%; height: 220px; object-fit: cover;">
                     <div style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
                         <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); font-weight: 600; margin-bottom: 0.5rem; display: block;">Hormonal Health</span>
-                        <h3 style="font-size: 1.35rem; color: var(--green-dark); margin-bottom: 0.75rem; line-height: 1.3;">Understanding PCOS and Insulin Resistance</h3>
+                        <h3 style="font-size: 1.35rem; color: var(--green-dark); margin-bottom: 0.75rem; line-height: 1.3;">Understanding PMOS and Insulin Resistance</h3>
                         <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; flex-grow: 1;">Explore how simple dietary tweaks and proper food sequencing can help manage insulin levels and support hormonal balance.</p>
                         <a href="javascript:void(0);" onclick="alert('This article will be available soon!');" style="color: var(--green-dark); font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; margin-top: auto;">Read Article <i data-feather="arrow-right" style="width: 14px; height: 14px;"></i></a>
                     </div>

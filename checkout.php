@@ -173,7 +173,7 @@ include_once __DIR__ . '/includes/header.php';
                         </div>
 
                         <div class="form-group full-width" style="margin-bottom: 2.5rem;">
-                            <label for="health_conditions">Describe any health conditions (PCOS, Diabetes, Thyroid, High BP, etc.) *</label>
+                            <label for="health_conditions">Describe any health conditions (PMOS, Diabetes, Thyroid, High BP, etc.) *</label>
                             <textarea id="health_conditions" name="health_conditions" rows="3" required placeholder="Specify any clinical diagnoses, medications, or health symptoms Shifana needs to consider."></textarea>
                         </div>
 

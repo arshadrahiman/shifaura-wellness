@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 }
 
 $page_title = 'Personalized Nutrition & Holistic Wellness';
-$page_description = 'SHIFAURA by Dietitian Shifana. Personalized health plans for weight management, diabetes care, PCOS, thyroid, and fertility nutrition.';
+$page_description = 'SHIFAURA by Dietitian Shifana. Personalized health plans for weight management, diabetes care, PMOS, thyroid, and fertility nutrition.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -222,7 +222,7 @@ include_once __DIR__ . '/includes/header.php';
                 <!-- Goal 3 -->
                 <div class="goal-card">
                     <div class="goal-icon"><i data-feather="heart"></i></div>
-                    <h3>PCOS & Hormonal Health</h3>
+                    <h3>PMOS & Hormonal Health</h3>
                     <p>Nutrition and lifestyle support designed around your individual hormonal, metabolic, and ovarian profile.</p>
                     <a href="#packages" class="goal-link">Explore Plan <i data-feather="arrow-right"></i></a>
                 </div>
@@ -322,7 +322,7 @@ include_once __DIR__ . '/includes/header.php';
                         Her professional journey includes <strong>6+ years of experience as a Master Coach & Nutritionist at HealthifyMe</strong>, as well as experience as a <strong>Nutrition Coach at Uvi Health by Philips</strong>.
                     </p>
                     <p style="margin-top: 1rem;">
-                        She specializes in <strong>weight loss, diabetes management, PCOS, thyroid health, fertility nutrition, hormonal health, and healthy weight gain</strong>. At SHIFAURA, she believes nutrition should be personal, practical, and sustainable—designed around your body, lifestyle, and goals.
+                        She specializes in <strong>weight loss, diabetes management, PMOS, thyroid health, fertility nutrition, hormonal health, and healthy weight gain</strong>. At SHIFAURA, she believes nutrition should be personal, practical, and sustainable—designed around your body, lifestyle, and goals.
                     </p>
                     
                     <div class="about-credentials">
@@ -451,10 +451,10 @@ include_once __DIR__ . '/includes/header.php';
                     <a href="#book-consultation" class="btn btn-gold" style="margin-top: auto; justify-content: center;">Enroll Program</a>
                 </div>
 
-                <!-- Package 3: PCOS & Hormonal Health -->
+                <!-- Package 3: PMOS & Hormonal Health -->
                 <div class="package-card">
                     <span class="package-featured-badge" style="background: var(--green-medium); color: var(--white); top: 1rem; right: 1rem;">3 / 6 Months</span>
-                    <h3 class="package-title">PCOS &amp; Hormones</h3>
+                    <h3 class="package-title">PMOS &amp; Hormones</h3>
                     <p class="package-subtitle">Targeting insulin resistance, gut health, ovarian functions, and cycle normalization.</p>
                     <ul class="package-features">
                         <li><i data-feather="check"></i> <span>Insulin reversing culinary techniques</span></li>
@@ -570,7 +570,7 @@ include_once __DIR__ . '/includes/header.php';
                                         <option value="Weight Loss">Weight Loss & Fat Reduction</option>
                                         <option value="Weight Gain">Healthy Weight Gain</option>
                                         <option value="Diabetes Management">Diabetes Management</option>
-                                        <option value="PCOS / Hormones">PCOS & Hormonal Health</option>
+                                        <option value="PMOS / Hormones">PMOS & Hormonal Health</option>
                                         <option value="Thyroid Management">Thyroid Health</option>
                                         <option value="Fertility Nutrition">Fertility Nutrition</option>
                                         <option value="General Wellness">General Wellness & 8 Pillars</option>

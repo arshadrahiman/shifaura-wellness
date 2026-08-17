@@ -19,7 +19,7 @@ function is_active_link($page_name) {
     <!-- SEO Meta Tags -->
     <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' - ' . SITE_TAGLINE; ?></title>
     <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'SHIFAURA by Dietitian Shifana. Personalized nutrition and holistic wellness programs built around your body, lifestyle, and goals.'; ?>">
-    <meta name="keywords" content="dietitian, nutritionist, weight loss, diabetes, PCOS, thyroid health, fertility nutrition, hormonal wellness, healthy lifestyle, shifaura, shifana">
+    <meta name="keywords" content="dietitian, nutritionist, weight loss, diabetes, PMOS, thyroid health, fertility nutrition, hormonal wellness, healthy lifestyle, shifaura, shifana">
     <meta name="author" content="Dietitian Shifana">
     <link rel="canonical" href="https://www.dietitianshifana.com/">
     

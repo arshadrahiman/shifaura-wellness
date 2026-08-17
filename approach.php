@@ -53,7 +53,7 @@ include_once __DIR__ . '/includes/header.php';
                     <span style="font-size: 3rem; flex-shrink: 0; line-height: 1;">🏃</span>
                     <div>
                         <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">2. Move — Physical Activity</h3>
-                        <p style="font-size: 0.9rem; line-height: 1.6;">We reject grueling workouts that trigger high cortisol (stress hormones) and exacerbate thyroid or PCOS issues. Instead, we introduce simple movement strategies, resistance training, and daily step benchmarks.</p>
+                        <p style="font-size: 0.9rem; line-height: 1.6;">We reject grueling workouts that trigger high cortisol (stress hormones) and exacerbate thyroid or PMOS issues. Instead, we introduce simple movement strategies, resistance training, and daily step benchmarks.</p>
                     </div>
                 </div>
 

@@ -60,7 +60,7 @@ $diet_packages = [
         ]
     ],
     'pcos-hormonal' => [
-        'title' => 'PCOS & Hormonal Health',
+        'title' => 'PMOS & Hormonal Health',
         'subtitle' => 'Nutrition designed around your hormonal & metabolic needs.',
         'icon' => 'heart',
         'prices' => [

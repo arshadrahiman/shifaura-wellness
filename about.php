@@ -32,14 +32,14 @@ include_once __DIR__ . '/includes/header.php';
                         As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana brings <strong>7+ years of clinical and digital wellness experience</strong>.
                     </p>
                     <p style="margin-bottom: 1rem;">
-                        Before launching <strong>SHIFAURA</strong>, she spent <strong>6+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PCOS, and thyroid protocols.
+                        Before launching <strong>SHIFAURA</strong>, she spent <strong>6+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PMOS, and thyroid protocols.
                     </p>
                     <p style="margin-bottom: 1.5rem;">
                         She specializes in:
                         <ul style="list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 1.5rem; padding-left: 0;">
                             <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> Weight Management</li>
                             <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> Diabetes Management</li>
-                            <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> PCOS & Hormones</li>
+                            <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> PMOS & Hormones</li>
                             <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> Thyroid Health</li>
                             <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> Fertility Nutrition</li>
                             <li style="font-size: 0.9rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;"><i data-feather="check" style="color: var(--gold); width: 16px; height: 16px;"></i> Circadian Restoration</li>
@@ -82,7 +82,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div class="diff-text">
                         <h3>Nutrition Coach &bull; Uvi Health (by Philips)</h3>
                         <span class="badge" style="margin-bottom: 0.5rem; font-size: 0.65rem;">Specialist Program</span>
-                        <p>Refined ovarian, thyroid, and reproductive health coaching workflows. Collaborated with gynecologists and endocrinologists to craft multi-disciplinary reversal plans for PCOS and subfertility patients.</p>
+                        <p>Refined ovarian, thyroid, and reproductive health coaching workflows. Collaborated with gynecologists and endocrinologists to craft multi-disciplinary reversal plans for PMOS and subfertility patients.</p>
                     </div>
                 </div>
 

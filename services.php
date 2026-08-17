@@ -5,7 +5,7 @@
 require_once __DIR__ . '/db/config.php';
 
 $page_title = 'Our Programs & Services';
-$page_description = 'Explore personalized nutrition packages by Dietitian Shifana. Weight management, diabetes control, thyroid plans, PCOS support, and holistic wellness.';
+$page_description = 'Explore personalized nutrition packages by Dietitian Shifana. Weight management, diabetes control, thyroid plans, PMOS support, and holistic wellness.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
