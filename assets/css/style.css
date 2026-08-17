@@ -2,30 +2,35 @@
  * SHIFAURA - Premium Wellness CSS Design System
  */
 
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+/* Google Fonts Import: Bodoni Moda (Bold Italic) & Montserrat (SemiBold) */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,300..900;1,300..900&display=swap');
 
-/* Variables */
+/* Color Variables Palette from User Specification */
 :root {
-    --sandal-light: #FAF7F2;
-    --sandal-medium: #F3ECE1;
-    --sandal-dark: #E6DBC6;
-    --sandal-border: #DCD0B7;
-    --green-dark: #1E3A2B;
-    --green-medium: #2D523C;
-    --green-light: #ECF2ED;
-    --green-sage: #8A9D91;
-    --gold: #BCA374;
-    --gold-dark: #967E59;
-    --gold-light: #F4EAE0;
+    --sandal-light: #F8EBDE;      /* #f8ebde Warm Sandal Base */
+    --sandal-medium: #EFE0CF;
+    --sandal-dark: #E1CEB8;
+    --sandal-border: #D7C2A9;
+    
+    --green-dark: #424B2E;        /* #424b2e Deep Olive Forest Green */
+    --green-medium: #54603B;
+    --green-light: #EBF0E4;
+    --green-sage: #7A8962;
+    
+    --sienna: #A97D51;            /* #a97d51 Terracotta Brown */
+    --gold: #AE844F;              /* #ae844f Warm Gold Accent */
+    --gold-dark: #8C6636;
+    --gold-alt: #C6A06E;           /* #c6a06e Sandal Gold Gradient */
+    --gold-light: #F4E7D7;
+    
     --white: #FFFFFF;
-    --text-dark: #222B26;
-    --text-muted: #5E6962;
+    --text-dark: #232A18;
+    --text-muted: #576148;
     --error: #A84232;
-    --success: #367A5A;
-    --shadow-sm: 0 2px 8px rgba(30, 58, 43, 0.05);
-    --shadow-md: 0 8px 24px rgba(30, 58, 43, 0.08);
-    --shadow-lg: 0 16px 40px rgba(30, 58, 43, 0.12);
+    --success: #424B2E;
+    --shadow-sm: 0 2px 8px rgba(66, 75, 46, 0.06);
+    --shadow-md: 0 8px 24px rgba(66, 75, 46, 0.10);
+    --shadow-lg: 0 16px 40px rgba(66, 75, 46, 0.15);
     --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     --radius-sm: 6px;
     --radius-md: 12px;
@@ -48,16 +53,16 @@ html {
 body {
     background-color: var(--sandal-light);
     color: var(--text-dark);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 500;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
     color: var(--green-dark);
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
 h1 { font-size: 3.5rem; font-weight: 600; }
@@ -178,7 +183,7 @@ header {
 }
 
 .logo-main {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     font-size: 1.85rem;
     font-weight: 700;
     color: var(--green-dark);
@@ -268,7 +273,7 @@ header {
 }
 
 .mobile-nav-links a {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     font-size: 2rem;
     color: var(--green-dark);
     font-weight: 500;
@@ -555,7 +560,7 @@ section {
 }
 
 .diff-number {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     font-size: 2rem;
     font-weight: 600;
     color: var(--gold);
@@ -615,7 +620,7 @@ section {
 }
 
 .about-signature-text {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     font-size: 1.5rem;
     font-style: italic;
     color: var(--green-dark);
@@ -800,7 +805,7 @@ input:checked + .slider:before {
 .package-price {
     font-size: 3.5rem;
     font-weight: 600;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     color: var(--green-dark);
     line-height: 1;
 }
@@ -858,13 +863,13 @@ input:checked + .slider:before {
 .testimonial-quote-icon {
     font-size: 4rem;
     color: var(--sandal-dark);
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     line-height: 0;
     margin-bottom: 2rem;
 }
 
 .testimonial-text {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Bodoni Moda', serif;
     font-size: 1.85rem;
     font-style: italic;
     color: var(--green-dark);
