@@ -36,7 +36,7 @@ $diet_packages = [
         ],
         'features' => [
             'Personalized meal strategies & plans',
-            'Weekly coaching calls with Shifana',
+            'Weekly coaching calls with Shifana.I',
             'Daily WhatsApp support & query resolution',
             'Lifestyle, sleep, and activity tracking',
             'Customized workout & movement guidelines'
@@ -56,7 +56,7 @@ $diet_packages = [
             'Continuous glucose monitoring (CGM) support',
             'Bi-weekly clinical metric evaluations',
             'Cardio & strength exercise counseling',
-            'Direct access to certified educator Shifana'
+            'Direct access to certified educator Shifana.I'
         ]
     ],
     'pcos-hormonal' => [

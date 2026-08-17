@@ -4,8 +4,8 @@
  */
 require_once __DIR__ . '/db/config.php';
 
-$page_title = 'Meet Dietitian Shifana | Senior Nutritionist';
-$page_description = 'Learn about Dietitian Shifana, M.Sc. Food & Nutrition, Certified Diabetes Educator. Former Master Coach at HealthifyMe with 7+ years of experience.';
+$page_title = 'Meet Dietitian Shifana.I | Senior Nutritionist';
+$page_description = 'Learn about Dietitian Shifana.I, M.Sc. Food & Nutrition, Certified Diabetes Educator. Former Master Coach at HealthifyMe with 7+ years of experience.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -13,7 +13,7 @@ include_once __DIR__ . '/includes/header.php';
     <header class="page-header">
         <div class="container">
             <span class="badge" style="margin-bottom: 0.75rem;">Founder & Senior Coach</span>
-            <h1>Meet Dietitian Shifana</h1>
+            <h1>Meet Dietitian Shifana.I</h1>
             <p>M.Sc. Food Science & Nutrition | Certified Diabetes Educator | Former HealthifyMe Master Coach</p>
         </div>
     </header>
@@ -23,13 +23,13 @@ include_once __DIR__ . '/includes/header.php';
         <div class="container" style="max-width: 1000px;">
             <div class="about-widget-grid" style="grid-template-columns: 0.9fr 1.1fr;">
                 <div class="about-widget-image">
-                    <!-- Shifana Portrait placeholder. We will replace this with a generated image. -->
-                    <img src="assets/images/shifana_portrait.png" alt="Dietitian Shifana, M.Sc. Nutrition" style="width: 100%; height: 520px; object-fit: cover;">
+                    <!-- Shifana.I Portrait placeholder. We will replace this with a generated image. -->
+                    <img src="assets/images/shifana_portrait.png" alt="Dietitian Shifana.I, M.Sc. Nutrition" style="width: 100%; height: 520px; object-fit: cover;">
                 </div>
                 <div>
                     <h2 style="font-size: 2.25rem; margin-bottom: 1.5rem;">Academic Excellence & Clinical Expertise</h2>
                     <p style="margin-bottom: 1rem; font-size: 1.05rem; color: var(--text-dark); line-height: 1.7;">
-                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana brings <strong>7+ years of clinical and digital wellness experience</strong>.
+                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana.I brings <strong>7+ years of clinical and digital wellness experience</strong>.
                     </p>
                     <p style="margin-bottom: 1rem;">
                         Before launching <strong>SHIFAURA</strong>, she spent <strong>6+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PMOS, and thyroid protocols.
@@ -49,7 +49,7 @@ include_once __DIR__ . '/includes/header.php';
                         <p style="font-style: italic; color: var(--green-dark); font-size: 0.95rem; line-height: 1.5;">
                             "Nutrition should be personal, practical, and sustainable. It is not about starvation or checking off checkboxes in a rigid, impossible diet sheet. It is about crafting a daily workflow that naturally aligns with your cellular biology, tastes, and lifestyle."
                         </p>
-                        <span style="display: block; text-align: right; font-family: 'Cormorant Garamond', serif; font-weight: 700; color: var(--green-dark); margin-top: 0.5rem;">— Dietitian Shifana</span>
+                        <span style="display: block; text-align: right; font-family: 'Cormorant Garamond', serif; font-weight: 700; color: var(--green-dark); margin-top: 0.5rem;">— Dietitian Shifana.I</span>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ include_once __DIR__ . '/includes/header.php';
             </p>
             
             <div style="margin-top: 2rem;">
-                <a href="index.php#book-consultation" class="btn btn-primary">Book Consultation With Shifana</a>
+                <a href="index.php#book-consultation" class="btn btn-primary">Book Consultation With Shifana.I</a>
             </div>
         </div>
     </section>

@@ -5,7 +5,7 @@
 require_once __DIR__ . '/db/config.php';
 
 $page_title = 'Our Programs & Services';
-$page_description = 'Explore personalized nutrition packages by Dietitian Shifana. Weight management, diabetes control, thyroid plans, PMOS support, and holistic wellness.';
+$page_description = 'Explore personalized nutrition packages by Dietitian Shifana.I. Weight management, diabetes control, thyroid plans, PMOS support, and holistic wellness.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -134,7 +134,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div style="background-color: var(--gold-light); width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--gold); flex-shrink: 0;"><i data-feather="message-square"></i></div>
                     <div>
                         <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--green-dark);">Daily Support</h4>
-                        <p style="font-size: 0.85rem;">Direct chat access to Dietitian Shifana. No AI bots or intermediate assistants. Your questions get answered directly.</p>
+                        <p style="font-size: 0.85rem;">Direct chat access to Dietitian Shifana.I. No AI bots or intermediate assistants. Your questions get answered directly.</p>
                     </div>
                 </div>
 

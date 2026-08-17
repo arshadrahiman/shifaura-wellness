@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     <div class="admin-login-card">
         <div style="text-align: center; margin-bottom: 2rem;">
             <a href="../index.php" style="display: inline-block;">
-                <img src="../assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana" style="height: 64px; width: auto; display: block; margin: 0 auto;">
+                <img src="../assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana.I" style="height: 64px; width: auto; display: block; margin: 0 auto;">
             </a>
             <p style="font-size: 0.75rem; text-transform: uppercase; color: var(--gold); letter-spacing: 0.15em; font-weight: 600; margin-top: 0.5rem;">Practitioner Console</p>
         </div>

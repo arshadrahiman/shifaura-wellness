@@ -45,7 +45,7 @@ include_once __DIR__ . '/includes/header.php';
                 
                 <h2>Welcome to SHIFAURA!</h2>
                 <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 500px; margin: 0 auto;">
-                    Thank you for choosing Dietitian Shifana to guide you. Your payment was processed successfully.
+                    Thank you for choosing Dietitian Shifana.I to guide you. Your payment was processed successfully.
                 </p>
 
                 <!-- Detailed Receipt Box -->
@@ -91,7 +91,7 @@ include_once __DIR__ . '/includes/header.php';
                     <ol style="margin-left: 1.25rem; font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem;">
                         <li><strong>Download your Onboard Audit Form</strong> below to share your detailed diet-medical history.</li>
                         <li>Check your email inbox for your registration confirmation.</li>
-                        <li>Dietitian Shifana's coordinator will text or call you on <strong><?php echo htmlspecialchars($purchase['client_phone']); ?></strong> within the next 24 hours to schedule your initial consultation.</li>
+                        <li>Dietitian Shifana.I's coordinator will text or call you on <strong><?php echo htmlspecialchars($purchase['client_phone']); ?></strong> within the next 24 hours to schedule your initial consultation.</li>
                     </ol>
                 </div>
 

@@ -10,12 +10,12 @@
                 <!-- Column 1: Brand Info -->
                 <div class="footer-brand">
                     <a href="index.php" class="logo-img-link" style="display: inline-block; margin-bottom: 0.5rem;">
-                        <img src="assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana" style="height: 58px; width: auto; background: rgba(255,255,255,0.9); padding: 6px 12px; border-radius: var(--radius-sm); display: block;">
+                        <img src="assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana.I" style="height: 58px; width: auto; background: rgba(255,255,255,0.9); padding: 6px 12px; border-radius: var(--radius-sm); display: block;">
                     </a>
                     <p>Evidence-based nutrition and holistic wellness, personalized to your body, lifestyle, and health goals.</p>
                     <div style="display: flex; gap: 0.75rem; align-items: center; color: var(--gold); font-size: 0.85rem; font-weight: 500;">
                         <i data-feather="award" style="width: 18px; height: 18px;"></i>
-                        <span>Dietitian Shifana (M.Sc. Food & Nutrition)</span>
+                        <span>Dietitian Shifana.I (M.Sc. Food & Nutrition)</span>
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@
                     <h4>Navigate</h4>
                     <ul class="footer-links">
                         <li><a href="index.php">Home</a></li>
-                        <!-- <li><a href="about.php">Meet Shifana</a></li> -->
+                        <!-- <li><a href="about.php">Meet Shifana.I</a></li> -->
                         <!-- <li><a href="services.php">Diet Services</a></li> -->
                         <!-- <li><a href="approach.php">Wellness Pillars</a></li> -->
                         <!-- <li><a href="resources.php">Resources</a></li> -->

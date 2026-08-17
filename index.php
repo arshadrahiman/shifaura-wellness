@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             ]);
             $booking_success = true;
 
-            // Send Email Notification to Dietitian Shifana
+            // Send Email Notification to Dietitian Shifana.I
             $to = "info@dietitianshifana.com";
             $subject = "New Consultation Request: " . $name . " (" . $goal . ")";
             
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 }
 
 $page_title = 'Personalized Nutrition & Holistic Wellness';
-$page_description = 'SHIFAURA by Dietitian Shifana. Personalized health plans for weight management, diabetes care, PMOS, thyroid, and fertility nutrition.';
+$page_description = 'SHIFAURA by Dietitian Shifana.I. Personalized health plans for weight management, diabetes care, PMOS, thyroid, and fertility nutrition.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -101,7 +101,7 @@ include_once __DIR__ . '/includes/header.php';
             </div>
             <div class="hero-image-container">
                 <!-- Professional Dietitian Image placeholder. We will later replace this with a generated image. -->
-                <img src="assets/images/shifana_hero.png" alt="Dietitian Shifana - Senior Nutritionist and Wellness Coach" style="width: 100%; height: 500px; object-fit: cover;">
+                <img src="assets/images/shifana_hero.png" alt="Dietitian Shifana.I - Senior Nutritionist and Wellness Coach" style="width: 100%; height: 500px; object-fit: cover;">
             </div>
         </div>
     </section>
@@ -304,19 +304,19 @@ include_once __DIR__ . '/includes/header.php';
         </div>
     </section>
 
-    <!-- 5. About Shifana Profile Card -->
+    <!-- 5. About Shifana.I Profile Card -->
     <section class="section-bg-alt">
         <div class="container">
             <div class="about-widget-grid">
                 <div class="about-widget-image">
-                    <!-- Shifana Portrait placeholder. We will replace this with a generated image. -->
-                    <img src="assets/images/shifana_portrait.png" alt="Dietitian Shifana, M.Sc. Nutrition" style="width: 100%; height: 480px; object-fit: cover;">
+                    <!-- Shifana.I Portrait placeholder. We will replace this with a generated image. -->
+                    <img src="assets/images/shifana_portrait.png" alt="Dietitian Shifana.I, M.Sc. Nutrition" style="width: 100%; height: 480px; object-fit: cover;">
                 </div>
                 <div class="about-widget-content">
                     <span class="tag">Meet Your Coach</span>
-                    <h3>Meet Dietitian Shifana</h3>
+                    <h3>Meet Dietitian Shifana.I</h3>
                     <p>
-                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, <strong>NET qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana brings <strong>7+ years of experience</strong> in nutrition and wellness.
+                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, <strong>NET qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana.I brings <strong>7+ years of experience</strong> in nutrition and wellness.
                     </p>
                     <p style="margin-top: 1rem;">
                         Her professional journey includes <strong>6+ years of experience as a Master Coach & Nutritionist at HealthifyMe</strong>, as well as experience as a <strong>Nutrition Coach at Uvi Health by Philips</strong>.
@@ -397,7 +397,7 @@ include_once __DIR__ . '/includes/header.php';
                         </div>
                         <div class="checklist-item yes">
                             <i data-feather="check-circle"></i>
-                            <span>Ongoing daily guidance and direct messaging support with Shifana.</span>
+                            <span>Ongoing daily guidance and direct messaging support with Shifana.I.</span>
                         </div>
                     </div>
                 </div>
@@ -445,7 +445,7 @@ include_once __DIR__ . '/includes/header.php';
                         <li><i data-feather="check"></i> <span>Low glycemic customized food charts</span></li>
                         <li><i data-feather="check"></i> <span>HbA1c &amp; sugar review tracker reviews</span></li>
                         <li><i data-feather="check"></i> <span>Continuous Glucose Monitor (CGM) support</span></li>
-                        <li><i data-feather="check"></i> <span>Direct guidance by CDE Shifana</span></li>
+                        <li><i data-feather="check"></i> <span>Direct guidance by CDE Shifana.I</span></li>
                         <li><i data-feather="check"></i> <span>Cardiovascular and lifestyle updates</span></li>
                     </ul>
                     <a href="#book-consultation" class="btn btn-gold" style="margin-top: auto; justify-content: center;">Enroll Program</a>
@@ -531,7 +531,7 @@ include_once __DIR__ . '/includes/header.php';
                                 <i data-feather="check-circle" style="color: var(--success);"></i>
                                 <div>
                                     <strong style="display: block;">Consultation Requested!</strong>
-                                    We have received your details. Dietitian Shifana or her coordinator will call you back within 24 hours to schedule your session.
+                                    We have received your details. Dietitian Shifana.I or her coordinator will call you back within 24 hours to schedule your session.
                                 </div>
                             </div>
                         <?php endif; ?>

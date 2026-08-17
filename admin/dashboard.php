@@ -80,7 +80,7 @@ try {
     <!-- Admin Header Panel -->
     <header class="admin-header">
         <a href="dashboard.php" class="logo-img-link">
-            <img src="../assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana" style="height: 48px; width: auto; background: rgba(255,255,255,0.9); padding: 4px 10px; border-radius: var(--radius-sm); display: block;">
+            <img src="../assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana.I" style="height: 48px; width: auto; background: rgba(255,255,255,0.9); padding: 4px 10px; border-radius: var(--radius-sm); display: block;">
         </a>
 
         <div class="admin-header-nav">

@@ -5,7 +5,7 @@
 require_once __DIR__ . '/db/config.php';
 
 $page_title = 'Wellness Resources, Articles & Guides';
-$page_description = 'Download sample diet plans, healthy recipes, and metabolic health guides. Access evidence-based articles by Dietitian Shifana.';
+$page_description = 'Download sample diet plans, healthy recipes, and metabolic health guides. Access evidence-based articles by Dietitian Shifana.I.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 

@@ -120,7 +120,7 @@ include_once __DIR__ . '/includes/header.php';
             <div class="section-header center">
                 <span class="tag">Methodology</span>
                 <h2>Our Client Journey</h2>
-                <p>Here is what to expect when you sign up for a program with Dietitian Shifana.</p>
+                <p>Here is what to expect when you sign up for a program with Dietitian Shifana.I.</p>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 3rem;">
@@ -128,7 +128,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div style="width: 80px; height: 80px; border-radius: 50%; background-color: var(--green-light); color: var(--green-dark); font-size: 2rem; font-weight: 700; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif;">01</div>
                     <div>
                         <h3 style="font-size: 1.65rem; margin-bottom: 0.5rem; color: var(--green-dark);">Detailed Metabolic & Lifestyle Audit</h3>
-                        <p>Upon registration, you receive a detailed intake diary. You share recent blood test reports, clinical history, sleep metrics, kitchen configurations, and typical schedule. Shifana reviews this audit personally during your onboarding call.</p>
+                        <p>Upon registration, you receive a detailed intake diary. You share recent blood test reports, clinical history, sleep metrics, kitchen configurations, and typical schedule. Shifana.I reviews this audit personally during your onboarding call.</p>
                     </div>
                 </div>
 
@@ -144,7 +144,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div style="width: 80px; height: 80px; border-radius: 50%; background-color: var(--green-light); color: var(--green-dark); font-size: 2rem; font-weight: 700; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif;">03</div>
                     <div>
                         <h3 style="font-size: 1.65rem; margin-bottom: 0.5rem; color: var(--green-dark);">Continuous Support & Weekly Calibrations</h3>
-                        <p>Every week, we evaluate your weight markers, symptoms, and consistency. Based on your inputs, we refine your food blueprints. Throughout the week, you have direct WhatsApp access to Shifana for support.</p>
+                        <p>Every week, we evaluate your weight markers, symptoms, and consistency. Based on your inputs, we refine your food blueprints. Throughout the week, you have direct WhatsApp access to Shifana.I for support.</p>
                     </div>
                 </div>
 

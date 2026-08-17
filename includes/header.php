@@ -18,13 +18,13 @@ function is_active_link($page_name) {
     
     <!-- SEO Meta Tags -->
     <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' - ' . SITE_TAGLINE; ?></title>
-    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'SHIFAURA by Dietitian Shifana. Personalized nutrition and holistic wellness programs built around your body, lifestyle, and goals.'; ?>">
+    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'SHIFAURA by Dietitian Shifana.I. Personalized nutrition and holistic wellness programs built around your body, lifestyle, and goals.'; ?>">
     <meta name="keywords" content="dietitian, nutritionist, weight loss, diabetes, PMOS, thyroid health, fertility nutrition, hormonal wellness, healthy lifestyle, shifaura, shifana">
-    <meta name="author" content="Dietitian Shifana">
+    <meta name="author" content="Dietitian Shifana.I">
     <link rel="canonical" href="https://www.dietitianshifana.com/">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="SHIFAURA by Dietitian Shifana - Personalized Nutrition">
+    <meta property="og:title" content="SHIFAURA by Dietitian Shifana.I - Personalized Nutrition">
     <meta property="og:description" content="Evidence-based nutrition and holistic wellness personalized to your body, lifestyle, and goals.">
     <meta property="og:url" content="https://www.dietitianshifana.com/">
     <meta property="og:type" content="website">
@@ -43,7 +43,7 @@ function is_active_link($page_name) {
         <div class="container header-inner">
             <!-- Brand Logo -->
             <a href="index.php" class="logo-img-link">
-                <img src="assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana" style="height: 54px; width: auto; display: block;">
+                <img src="assets/images/logo.png" alt="SHIFAURA by Dietitian Shifana.I" style="height: 54px; width: auto; display: block;">
             </a>
 
             <!-- Desktop Nav Links -->

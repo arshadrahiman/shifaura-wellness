@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             // Save purchase ID to session to display on success page
             $_SESSION['last_purchase_id'] = $pdo->lastInsertId();
 
-            // Send Email Notification to Dietitian Shifana
+            // Send Email Notification to Dietitian Shifana.I
             $to = "info@dietitianshifana.com";
             $subject = "New Diet Program Registration: " . $package['title'] . " - " . $client_name;
             
@@ -174,7 +174,7 @@ include_once __DIR__ . '/includes/header.php';
 
                         <div class="form-group full-width" style="margin-bottom: 2.5rem;">
                             <label for="health_conditions">Describe any health conditions (PMOS, Diabetes, Thyroid, High BP, etc.) *</label>
-                            <textarea id="health_conditions" name="health_conditions" rows="3" required placeholder="Specify any clinical diagnoses, medications, or health symptoms Shifana needs to consider."></textarea>
+                            <textarea id="health_conditions" name="health_conditions" rows="3" required placeholder="Specify any clinical diagnoses, medications, or health symptoms Shifana.I needs to consider."></textarea>
                         </div>
 
                         <!-- Step 2: Payment Simulation -->
