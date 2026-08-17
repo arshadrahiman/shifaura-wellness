@@ -465,7 +465,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div style="background: var(--sandal-medium); border: 1px solid var(--gold); border-radius: var(--radius-md); padding: 1.25rem; font-size: 0.85rem; color: var(--green-dark);">
                         <strong style="display: block; font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--green-dark);">📍 Official In-Clinic Location:</strong>
                         <p style="margin-bottom: 0.5rem; line-height: 1.4;">
-                            Nila Complex, Shop No. 30, Near Dmart, Podanur, Coimbatore - 641023.
+                            Nila Complex, Near Dmart, Podanur, Coimbatore - 641023.
                         </p>
                         <div style="display: flex; gap: 1rem; flex-wrap: wrap; font-weight: 600; color: var(--sienna);">
                             <span>📞 +91 6381 757 067</span>

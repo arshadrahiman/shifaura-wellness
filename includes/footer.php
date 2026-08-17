@@ -14,7 +14,7 @@
                     </a>
                     <p>Evidence-based nutrition and holistic wellness, personalized to your body, lifestyle, and health goals.</p>
                     <div style="display: flex; flex-direction: column; gap: 0.4rem; color: var(--gold); font-size: 0.85rem; font-weight: 500; margin-top: 0.5rem;">
-                        <span>📍 Nila Complex, Shop No. 30, Near Dmart, Podanur, Coimbatore - 641023</span>
+                        <span>📍 Nila Complex, Near Dmart, Podanur, Coimbatore - 641023</span>
                         <span>Dietitian Shifana.I (M.Sc. Food &amp; Nutrition) &bull; 📸 @dietitianshifana</span>
                     </div>
                 </div>
