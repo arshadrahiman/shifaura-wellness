@@ -29,7 +29,7 @@ include_once __DIR__ . '/includes/header.php';
                 <div>
                     <h2 style="font-size: 2.25rem; margin-bottom: 1.5rem;">Academic Excellence & Clinical Expertise</h2>
                     <p style="margin-bottom: 1rem; font-size: 1.05rem; color: var(--text-dark); line-height: 1.7;">
-                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana brings over <strong>7 years of clinical and digital wellness experience</strong>.
+                        As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana brings <strong>7+ years of clinical and digital wellness experience</strong>.
                     </p>
                     <p style="margin-bottom: 1rem;">
                         Before launching <strong>SHIFAURA</strong>, she spent <strong>6+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PCOS, and thyroid protocols.

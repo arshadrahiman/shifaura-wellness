@@ -83,7 +83,7 @@ include_once __DIR__ . '/includes/header.php';
             <div class="hero-content">
                 <h1>
                     <span class="brand-highlight">SHIFAURA</span>
-                    Personalized Nutrition.<br>Proven Results.
+                    Not another diet, a better way to live.
                 </h1>
                 <p class="hero-subtitle">
                     Evidence-based nutrition and holistic wellness, personalized to your body, lifestyle, and goals. 

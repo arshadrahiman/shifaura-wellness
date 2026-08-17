@@ -10,7 +10,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Global Site Definitions
 define('SITE_NAME', 'SHIFAURA');
-define('SITE_TAGLINE', 'Personalized Nutrition. Proven Results.');
+define('SITE_TAGLINE', 'Not another diet, a better way to live.');
 define('SITE_DOMAIN', 'www.dietitianshifana.com');
 define('CURRENCY_SYMBOL', '₹');
 
