@@ -403,60 +403,39 @@ include_once __DIR__ . '/includes/header.php';
                         </div>
 
                         <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.75rem;">
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">⚖️ WEIGHT LOSS</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Sustainable &amp; Effective</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">⚖️ WEIGHT LOSS</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Sustainable &amp; Effective</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🧘‍♀️ BELLY FAT REDUCTION</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Balanced. Transformative.</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🧘‍♀️ BELLY FAT REDUCTION</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Balanced. Transformative.</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🤰 FERTILITY &amp; PRECONCEPTION</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Nourish. Prepare. Support.</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🤰 FERTILITY &amp; PRECONCEPTION</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Nourish. Prepare. Support.</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🩸 DIABETES MANAGEMENT</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Better Control. Better Life.</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🩸 DIABETES MANAGEMENT</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Better Control. Better Life.</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🌸 PCOD / PMOS (PCOS)</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Balance Hormones. Support Health.</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🌸 PCOD / PMOS (PCOS)</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Balance Hormones. Support Health.</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🦋 THYROID CARE</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Support • Balance • Thrive</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🦋 THYROID CARE</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Support • Balance • Thrive</span>
                             </div>
 
-                            <div style="background: var(--sandal-light); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between; border-left: 3px solid var(--gold);">
-                                <div>
-                                    <strong style="display: block; color: var(--green-dark); font-size: 0.95rem;">🏋️‍♂️ WEIGHT GAIN</strong>
-                                    <span style="font-size: 0.8rem; color: var(--text-muted);">Healthy Weight. Stronger You.</span>
-                                </div>
-                                <i data-feather="chevron-right" style="color: var(--gold);"></i>
+                            <div style="background: var(--sandal-light); padding: 0.9rem 1.15rem; border-radius: var(--radius-md); border: 1px solid var(--sandal-border); border-left: 4px solid var(--gold);">
+                                <strong style="display: block; color: var(--green-dark); font-size: 0.95rem; font-weight: 700;">🏋️‍♂️ WEIGHT GAIN</strong>
+                                <span style="font-size: 0.82rem; color: var(--sienna); font-weight: 600;">Healthy Weight. Stronger You.</span>
                             </div>
                         </div>
                     </div>
