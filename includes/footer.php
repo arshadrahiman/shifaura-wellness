@@ -70,10 +70,7 @@
         <a href="https://wa.me/916381757067?text=Hello%20Dietitian%20Shifana.I,%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn mobile-wa-btn">
             <i data-feather="message-circle" style="width: 16px; height: 16px;"></i> WhatsApp Us
         </a>
-    <!-- Scroll To Top Button -->
-    <button id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to top of page">
-        <i data-feather="arrow-up" style="width: 22px; height: 22px; color: var(--gold);"></i>
-    </button>
+    </div>
 
     <!-- Feather Icons Render Script -->
     <script>
