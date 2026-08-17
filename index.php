@@ -477,6 +477,45 @@ include_once __DIR__ . '/includes/header.php';
         </div>
     </section>
 
+    <!-- Official Brand Posters Gallery (Glass V4 & Glass V2 Visual Posters) -->
+    <section style="padding: 5rem 0; background: var(--sandal-light);" id="official-posters">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="tag">Official Practice Posters</span>
+                <h2>Explore Our Official Brand &amp; Practice Posters</h2>
+                <p>View our clinical philosophy, practitioner credentials, and complete list of targeted nutrition programs.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Poster 1: Practitioner Profile (Glass V4) -->
+                <div class="reveal reveal-left" style="background: var(--white); border: 2px solid var(--gold); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-lg); text-align: center;">
+                    <div style="position: relative; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-md); margin-bottom: 1.5rem;">
+                        <img src="assets/images/poster_practitioner.png" alt="Dietitian Shifana.I Clinical Profile Poster" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <span class="tag" style="margin-bottom: 0.5rem; display: inline-block;">Practitioner Profile Poster</span>
+                    <h3 style="font-family: 'Bodoni Moda', serif; font-size: 1.45rem; color: var(--green-dark); margin-bottom: 0.5rem;">Clinical Practitioner &amp; Philosophy</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">Certified Diabetes Educator, HealthifyMe Master Coach, Uvi Health Coach, and Core Philosophy.</p>
+                    <a href="assets/images/poster_practitioner.png" target="_blank" class="btn btn-secondary" style="width: 100%; justify-content: center; font-size: 0.9rem;">
+                        <i data-feather="maximize-2" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View Full Size Poster
+                    </a>
+                </div>
+
+                <!-- Poster 2: Clinical Services & Address (Glass V2) -->
+                <div class="reveal reveal-right" style="background: var(--white); border: 2px solid var(--gold); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-lg); text-align: center;">
+                    <div style="position: relative; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-md); margin-bottom: 1.5rem;">
+                        <img src="assets/images/poster_services.png" alt="SHIFAURA Personalized Nutrition Services Poster" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <span class="tag" style="margin-bottom: 0.5rem; display: inline-block;">Services &amp; Contact Poster</span>
+                    <h3 style="font-family: 'Bodoni Moda', serif; font-size: 1.45rem; color: var(--green-dark); margin-bottom: 0.5rem;">Targeted Services &amp; Clinic Location</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">Weight loss, PMOS, Thyroid care, Diabetes management, and Podanur clinic address.</p>
+                    <a href="assets/images/poster_services.png" target="_blank" class="btn btn-secondary" style="width: 100%; justify-content: center; font-size: 0.9rem;">
+                        <i data-feather="maximize-2" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View Full Size Poster
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 4. The SHIFAURA Difference -->
     <section>
         <div class="container">
