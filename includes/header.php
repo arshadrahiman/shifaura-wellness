@@ -146,11 +146,9 @@ function is_active_link($page_name) {
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.php" class="<?php echo is_active_link('index.php'); ?>">Home</a></li>
-                    <li><a href="index.php#pillars">8 Pillars</a></li>
                     <li><a href="index.php#services">Clinical Programs</a></li>
-                    <li><a href="index.php#packages">Plans &amp; Pricing</a></li>
+                    <li><a href="index.php#packages">Packages</a></li>
                     <li><a href="index.php#faq-section">FAQ</a></li>
-                    <li><a href="index.php#book-consultation">Contact Clinic</a></li>
                 </ul>
             </nav>
 
@@ -167,11 +165,9 @@ function is_active_link($page_name) {
         <div class="mobile-nav">
             <ul class="mobile-nav-links">
                 <li><a href="index.php" class="<?php echo is_active_link('index.php'); ?>">Home</a></li>
-                <li><a href="index.php#pillars">8 Pillars</a></li>
                 <li><a href="index.php#services">Clinical Programs</a></li>
-                <li><a href="index.php#packages">Plans &amp; Pricing</a></li>
+                <li><a href="index.php#packages">Packages &amp; Pricing</a></li>
                 <li><a href="index.php#faq-section">FAQ</a></li>
-                <li><a href="index.php#book-consultation">Contact Clinic</a></li>
                 <li style="margin-top: 1rem;"><a href="index.php#book-consultation" class="btn btn-primary" style="display: block; text-align: center; color: var(--sandal-light);">Book Consultation</a></li>
             </ul>
         </div>
