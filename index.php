@@ -683,8 +683,8 @@ include_once __DIR__ . '/includes/header.php';
     </section> 
     -->
 
-    <!-- 8.5 Regional Reach & Local Digital Marketing Section (Coimbatore, Tamil Nadu & Kerala) -->
-    <section style="padding: 4.5rem 0; background: var(--sandal-medium); border-top: 1px solid var(--sandal-border); border-bottom: 1px solid var(--sandal-border);">
+    <!-- 8.5 Regional Reach & Local Digital Marketing Section (SEO Crawlable Block - Visually Hidden) -->
+    <section style="display: none;" aria-hidden="true">
         <div class="container">
             <div class="section-header center reveal">
                 <span class="tag">Regional Reach &amp; Care</span>
