@@ -742,6 +742,8 @@ include_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <!-- Right Form Area -->
+                <div class="consultation-form-container">
+                    <div class="consultation-form">
                         <!-- Innovative Form Filling Section Header -->
                         <div style="margin-bottom: 2rem;">
                             <h4>Tell Us About Yourself</h4>

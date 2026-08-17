@@ -1697,13 +1697,14 @@ html, body {
         padding: 1.75rem 1.25rem;
     }
 
-    /* Consultation Card Mobile Responsiveness Overhaul */
+    /* Consultation Card Mobile Responsiveness & Alignment Overhaul */
     .consultation-card {
         grid-template-columns: 1fr !important;
         display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
         max-width: 100% !important;
+        margin: 0 auto !important;
         box-sizing: border-box !important;
         overflow: hidden !important;
         border-radius: var(--radius-md) !important;
@@ -1712,12 +1713,16 @@ html, body {
     .consultation-info {
         padding: 2.25rem 1.5rem !important;
         width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
         box-sizing: border-box !important;
     }
 
     .consultation-form-container {
         padding: 2.25rem 1.5rem !important;
         width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
         box-sizing: border-box !important;
         background-color: var(--sandal-light) !important;
     }
@@ -1725,6 +1730,7 @@ html, body {
     .consultation-form {
         width: 100% !important;
         max-width: 100% !important;
+        margin: 0 auto !important;
         box-sizing: border-box !important;
     }
 
@@ -1732,13 +1738,19 @@ html, body {
         display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
         gap: 1rem !important;
+        box-sizing: border-box !important;
     }
 
     .form-group {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
         margin-bottom: 1rem !important;
         box-sizing: border-box !important;
     }
