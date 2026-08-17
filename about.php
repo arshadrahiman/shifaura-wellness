@@ -32,7 +32,7 @@ include_once __DIR__ . '/includes/header.php';
                         As a <strong>Senior Nutritionist</strong> with an <strong>M.Sc. in Food Science & Nutrition</strong>, a <strong>National Eligibility Test (NET) qualification</strong>, and certification as a <strong>Certified Diabetes Educator</strong>, Dietitian Shifana.I brings <strong>7+ years of clinical and digital wellness experience</strong>.
                     </p>
                     <p style="margin-bottom: 1rem;">
-                        Before launching <strong>SHIFAURA</strong>, she spent <strong>6+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PMOS, and thyroid protocols.
+                        Before launching <strong>SHIFAURA</strong>, she spent <strong>7+ years as a Master Coach & Nutritionist at HealthifyMe</strong>, mentoring thousands of clients in fat loss, metabolic recovery, and lifestyle tuning. She also coached clients under specialized clinical plans at <strong>Uvi Health by Philips</strong>, refining her knowledge of female endocrinology, PMOS, and thyroid protocols.
                     </p>
                     <p style="margin-bottom: 1.5rem;">
                         She specializes in:
@@ -71,7 +71,7 @@ include_once __DIR__ . '/includes/header.php';
                     <div class="diff-number"><i data-feather="award" style="color: var(--gold); width: 32px; height: 32px;"></i></div>
                     <div class="diff-text">
                         <h3>Master Coach & Senior Nutritionist &bull; HealthifyMe</h3>
-                        <span class="badge" style="margin-bottom: 0.5rem; font-size: 0.65rem;">6+ Years (2018 - 2024)</span>
+                        <span class="badge" style="margin-bottom: 0.5rem; font-size: 0.65rem;">7+ Years (2018 - 2024)</span>
                         <p>Managed, coached, and calibrated lifestyle habits for over 3,000 clients globally. Led critical clinical cases, mentored junior dietitians, and created advanced meal structures for complex metabolic syndromes.</p>
                     </div>
                 </div>
