@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 }
 
 $page_title = 'Personalized Nutrition & Holistic Wellness';
-$page_description = 'SHIFAURA by Dietitian Shifana.I. Personalized health plans for weight management, diabetes care, PMOS, thyroid, and fertility nutrition.';
+$page_description = 'SHIFAURA by Dietitian Shifana.I. Personalized health plans for weight management, diabetes care, PCOS / PMOS (Polyendocrine Metabolic Ovarian Syndrome), thyroid, and fertility nutrition.';
 include_once __DIR__ . '/includes/header.php';
 ?>
 

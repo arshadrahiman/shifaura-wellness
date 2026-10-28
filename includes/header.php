@@ -9,6 +9,16 @@ function is_active_link($page_name) {
     $current_page = basename($_SERVER['PHP_SELF']);
     return ($current_page === $page_name) ? 'active' : '';
 }
+
+// Dynamic canonical and Open Graph URL resolution
+if (!isset($canonical_url)) {
+    $script_file = basename($_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF'] ?? '');
+    if ($script_file === 'index.php' || empty($script_file) || $script_file === 'index.html') {
+        $canonical_url = 'https://www.dietitianshifana.com/';
+    } else {
+        $canonical_url = 'https://www.dietitianshifana.com/' . $script_file;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,22 +26,26 @@ function is_active_link($page_name) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Google Search Console Verification Tag -->
+    <!-- Replace 'YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE' with your real code from Google Search Console -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE">
+
     <!-- SEO & Local Digital Marketing Meta Tags -->
     <title><?php echo isset($page_title) ? $page_title . ' | SHIFAURA by Dietitian Shifana.I' : 'Dietitian Shifana.I | Best Clinical Nutritionist in Coimbatore, Tamil Nadu & Kerala'; ?></title>
-    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Senior Clinical Dietitian Shifana.I (M.Sc. Food & Nutrition, Certified Diabetes Educator). In-Clinic consultation at Podanur, Coimbatore & Worldwide Online consultations across Tamil Nadu (Chennai, Madurai, Salem) & Kerala (Kochi, Calicut, Palakkad). Weight Loss, PMOS, Diabetes Care.'; ?>">
-    <meta name="keywords" content="Best Dietitian in Coimbatore, Clinical Nutritionist Podanur, Certified Diabetes Educator Coimbatore, PCOS Dietitian Tamil Nadu, Online Dietitian Kerala, Weight Loss Consultation Coimbatore, Dietitian Shifana.I, Dietitian Kochi Calicut Palakkad, Fertility Nutritionist Coimbatore">
+    <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Senior Clinical Dietitian Shifana.I (M.Sc. Food & Nutrition, Certified Diabetes Educator). In-Clinic consultation at Podanur, Coimbatore & Worldwide Online consultations across Tamil Nadu (Chennai, Madurai, Salem) & Kerala (Kochi, Calicut, Palakkad). Weight Loss, PCOS / PMOS (Polyendocrine Metabolic Ovarian Syndrome), Diabetes Care.'; ?>">
+    <meta name="keywords" content="Best Dietitian in Coimbatore, Clinical Nutritionist Podanur, Certified Diabetes Educator Coimbatore, PCOS Dietitian Tamil Nadu, PMOS Dietitian Coimbatore, Polyendocrine Metabolic Ovarian Syndrome, Online Dietitian Kerala, Weight Loss Consultation Coimbatore, Dietitian Shifana.I, Dietitian Kochi Calicut Palakkad, Fertility Nutritionist Coimbatore">
     <meta name="author" content="Dietitian Shifana.I">
     <meta name="robots" content="index, follow">
     <meta name="geo.region" content="IN-TN">
     <meta name="geo.placename" content="Coimbatore, Podanur, Tamil Nadu">
     <meta name="geo.position" content="10.9633;76.9734">
     <meta name="ICBM" content="10.9633, 76.9734">
-    <link rel="canonical" href="https://www.dietitianshifana.com/">
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Dietitian Shifana.I | Clinical Nutrition & Diabetes Care (Coimbatore, Tamil Nadu & Kerala)">
-    <meta property="og:description" content="Evidence-based nutrition and holistic wellness by Dietitian Shifana.I (7+ Yrs Exp, Former HealthifyMe Master Coach). Online & In-Clinic Podanur consultations.">
-    <meta property="og:url" content="https://www.dietitianshifana.com/">
+    <meta property="og:title" content="<?php echo isset($page_title) ? $page_title . ' | SHIFAURA' : 'Dietitian Shifana.I | Clinical Nutrition & Diabetes Care (Coimbatore, Tamil Nadu & Kerala)'; ?>">
+    <meta property="og:description" content="<?php echo isset($page_description) ? $page_description : 'Evidence-based nutrition and holistic wellness by Dietitian Shifana.I (7+ Yrs Exp, Former HealthifyMe Master Coach). Online & In-Clinic Podanur consultations.'; ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.dietitianshifana.com/assets/images/logo.png">
 
